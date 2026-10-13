@@ -1,0 +1,51 @@
+{
+  "id": "training_qualisys__from_mtf_to_lmt",
+  "original_folder": "Train the lumped muscle BSE model Qualisys/From MTF to LMT",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs",
+    "Lumped_model_training_from5to15",
+    "Lumped_System_Dynamics"
+  ],
+  "files": [
+    {
+      "source": "data/processed/training_qualisys__from_mtf_to_lmt/activation.mat",
+      "target": "activation.mat"
+    },
+    {
+      "source": "src/shared/ActivationDynamics.m",
+      "target": "ActivationDynamics.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_mtf_to_lmt/Cost_function_from5to15.m",
+      "target": "Cost_function_from5to15.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_mtf_to_lmt/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_mtf_to_lmt/Lumped_model_check_with_coeffs.m",
+      "target": "Lumped_model_check_with_coeffs.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_mtf_to_lmt/Lumped_model_training_from5to15.m",
+      "target": "Lumped_model_training_from5to15.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/Lumped_System_Dynamics.m",
+      "target": "Lumped_System_Dynamics.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/simplify_pulley_model.m",
+      "target": "simplify_pulley_model.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_mtf_to_lmt/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "src/shared/Torque_function_constant_from5to15.m",
+      "target": "Torque_function_constant_from5to15.m"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "control_experimental__period_correct_model_controller",
+  "original_folder": "Simulate the controller with the experimental activation/Period_correct_model_controller",
+  "entrypoints": [
+    "offline_simulator_NMPC_quasimodo_period_model"
+  ],
+  "files": [
+    {
+      "source": "src/workflows/control_experimental__period_correct_model_controller/mpc_cost_function.m",
+      "target": "mpc_cost_function.m"
+    },
+    {
+      "source": "src/shared/nonlinear_system.m",
+      "target": "nonlinear_system.m"
+    },
+    {
+      "source": "src/workflows/control_experimental__period_correct_model_controller/nonlinear_system_period.m",
+      "target": "nonlinear_system_period.m"
+    },
+    {
+      "source": "src/workflows/control_experimental__period_correct_model_controller/offline_simulator_NMPC_quasimodo_period_model.m",
+      "target": "offline_simulator_NMPC_quasimodo_period_model.m"
+    },
+    {
+      "source": "src/variants/control_experimental/simplify_pulley_model.m",
+      "target": "simplify_pulley_model.m"
+    }
+  ]
+}

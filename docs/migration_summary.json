@@ -1,0 +1,141 @@
+{
+  "original_files": 1541,
+  "matlab_files": 410,
+  "unique_matlab_files": 174,
+  "workflows": 38,
+  "unique_input_assets": 132,
+  "path_changes": [
+    [
+      "src\\variants\\map_predictor\\data_combination.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\map_predictor\\Dynamic_kine_reference.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\map_predictor\\MAP_output_model_fusion.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\map_predictor\\NNMF_component.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_experimental\\Dynamic_kine_reference.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_experimental\\Lumped_model_check_with_coeffs_thesis.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_experimental\\NNMF_component.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_experimental__period_correct_model_controller\\offline_simulator_NMPC_quasimodo_period_model.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_experimental\\simplify_pulley_model_fusion_MTU_test_coeffs.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_map\\MAP_output_model_fusion.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\control_map\\NNMF_component.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_qualisys\\data_combination.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_bse\\data_combination_Qualisys.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_qualisys__from_theta_to_torque\\Dynamic_kine_reference.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_qualisys__from_theta_to_torque\\Lumped_model_check_with_coeffs.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\shared\\Lumped_model_check_with_coeffs_ICNR.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_qualisys__from_theta_to_torque\\Lumped_model_check_with_coeffs_thesis.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\shared\\Lumped_model_check_with_coeffs_thesis_test.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_qualisys__from_theta_to_torque\\Lumped_model_training_from5to15.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\shared\\Sewing_model_with_coeffs.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_qualisys__from_lmt_to_mtf\\Dynamic_kine_reference.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_qualisys__from_lmt_to_mtf\\Lumped_model_check_with_coeffs.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_qualisys__from_lmt_to_mtf\\Lumped_model_training_from5to15.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_qualisys__from_mtf_to_lmt\\Dynamic_kine_reference.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_qualisys__from_mtf_to_lmt\\Lumped_model_check_with_coeffs.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_qualisys__from_mtf_to_lmt\\Lumped_model_training_from5to15.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_map__old__muscle_tendon\\data_combination.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_map__muscle_tendon__5_35_10_55_15_45_done__build_data\\data_combination.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_map__muscle_tendon__5_35_10_55_15_45_done__build_data\\MAP_output_model_fusion.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_map__muscle_tendon__5_45_10_35_15_55_done__build_data\\data_combination.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_map__muscle_tendon__5_45_10_35_15_55_done__build_data\\MAP_output_model_fusion.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\variants\\training_map__muscle_tendon__5_55_10_45_15_35_done__build_data\\data_combination.m",
+      "Replace machine-specific data root"
+    ],
+    [
+      "src\\workflows\\training_map__muscle_tendon__5_55_10_45_15_35_done__build_data\\MAP_output_model_fusion.m",
+      "Replace machine-specific data root"
+    ]
+  ]
+}

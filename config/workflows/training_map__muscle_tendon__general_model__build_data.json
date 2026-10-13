@@ -1,0 +1,129 @@
+{
+  "id": "training_map__muscle_tendon__general_model__build_data",
+  "original_folder": "Train the lumped muscle BSE model with MAP/Step 2/General Model/Build data combination",
+  "entrypoints": [
+    "data_combination",
+    "Fitting_Double_gauss_model",
+    "Fitting_exp",
+    "Fitting_Poly",
+    "MAP_output_model_fusion"
+  ],
+  "files": [
+    {
+      "source": "data/processed/control_map/baseline_data.mat",
+      "target": "baseline_data.mat"
+    },
+    {
+      "source": "data/processed/control_map/Baselines.mat",
+      "target": "Baselines.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model__build_data/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/Combination_raw.mat",
+      "target": "Combination_raw.mat"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/data_combination.m",
+      "target": "data_combination.m"
+    },
+    {
+      "source": "src/variants/map_predictor/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "data/processed/control_map/EMG_matrix.mat",
+      "target": "EMG_matrix.mat"
+    },
+    {
+      "source": "src/shared/excitation_primitives.m",
+      "target": "excitation_primitives.m"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/excitation_primitives_double_gauss.m",
+      "target": "excitation_primitives_double_gauss.m"
+    },
+    {
+      "source": "src/shared/Fitting_Double_gauss_model.m",
+      "target": "Fitting_Double_gauss_model.m"
+    },
+    {
+      "source": "src/shared/Fitting_exp.m",
+      "target": "Fitting_exp.m"
+    },
+    {
+      "source": "src/shared/Fitting_Poly.m",
+      "target": "Fitting_Poly.m"
+    },
+    {
+      "source": "src/shared/FutureStimActiv.m",
+      "target": "FutureStimActiv.m"
+    },
+    {
+      "source": "src/shared/getMAP.m",
+      "target": "getMAP.m"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/getWeights.m",
+      "target": "getWeights.m"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/getXP.m",
+      "target": "getXP.m"
+    },
+    {
+      "source": "src/shared/getXP_without_training.m",
+      "target": "getXP_without_training.m"
+    },
+    {
+      "source": "src/shared/lowpassfilter.m",
+      "target": "lowpassfilter.m"
+    },
+    {
+      "source": "src/variants/control_map/MAP_model.m",
+      "target": "MAP_model.m"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/MAP_output_model_fusion.m",
+      "target": "MAP_output_model_fusion.m"
+    },
+    {
+      "source": "src/shared/normalize_max_min.m",
+      "target": "normalize_max_min.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model__build_data/Primitives_fit_x.mat",
+      "target": "Primitives_fit_x.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model__build_data/Primitives_fit_y.mat",
+      "target": "Primitives_fit_y.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/pv_coefficients.mat",
+      "target": "pv_coefficients.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/pw_coefficients.mat",
+      "target": "pw_coefficients.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/reg_2step_Add_all.mat",
+      "target": "reg_2step_Add_all.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/regression_const.mat",
+      "target": "regression_const.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/weights_generic.mat",
+      "target": "weights_generic.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/withExceptionsreg_2step_Add_all.mat",
+      "target": "withExceptionsreg_2step_Add_all.mat"
+    }
+  ]
+}

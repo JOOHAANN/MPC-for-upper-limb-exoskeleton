@@ -1,0 +1,42 @@
+{
+  "id": "training_bse__muscle_tendon",
+  "original_folder": "Train the lumped muscle BSE model/Step 2 From EMG and LMT to MTF Calibrate MTU",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "Train_Lumped_muscle_model_EMG_and_LMT_to_MTF"
+  ],
+  "files": [
+    {
+      "source": "data/processed/training_bse__muscle_tendon/coeffs.mat",
+      "target": "coeffs.mat"
+    },
+    {
+      "source": "data/processed/root/Combination1.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "src/workflows/training_bse__muscle_tendon/Cost_function.m",
+      "target": "Cost_function.m"
+    },
+    {
+      "source": "src/workflows/training_bse__muscle_tendon/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "data/processed/training_bse__muscle_tendon/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/training_bse__muscle_tendon/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "data/processed/training_bse__muscle_tendon/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/training_bse__muscle_tendon/Train_Lumped_muscle_model_EMG_and_LMT_to_MTF.m",
+      "target": "Train_Lumped_muscle_model_EMG_and_LMT_to_MTF.m"
+    }
+  ]
+}

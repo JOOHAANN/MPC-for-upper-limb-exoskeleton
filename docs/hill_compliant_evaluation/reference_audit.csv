@@ -1,0 +1,10 @@
+loadKg,speed,samples,exactOriginalReference,maximumReferenceDifferenceRad
+5.0,35.0,642,True,0.0
+10.0,55.0,403,True,0.0
+15.0,45.0,438,True,0.0
+5.0,45.0,562,True,0.0
+10.0,35.0,597,True,0.0
+15.0,55.0,379,True,0.0
+5.0,55.0,436,True,0.0
+10.0,45.0,505,True,0.0
+15.0,35.0,590,True,0.0

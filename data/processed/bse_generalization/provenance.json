@@ -1,0 +1,317 @@
+{
+  "preprocessing_version": 1,
+  "generator": "experiments/bse_generalization/build_bse_trials.m",
+  "cache_sha256": "64b2c9dcc29f2439e5545d6d88f6a6d396c1098f97769ed44e445a434301835d",
+  "sampling_interval_seconds": 0.02,
+  "load_code_mapping": {
+    "5": 5,
+    "75": 7.5,
+    "10": 10,
+    "125": 12.5,
+    "15": 15
+  },
+  "target": "Torque.sto recorded reference; upstream generation not independently established",
+  "sources": [
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_25/emgFilt.sto",
+      "sha256": "e19299695bd15c9c9b8337755286ed59bbf3eb153fe5423638a4359e727bac1b"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_25/ik.sto",
+      "sha256": "a6e1c12387cbf6f27392017ab76d9e5fd0129ed4164bb0501b2a7087ec4dfb46"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_25/Torque.sto",
+      "sha256": "a8d87f35ff0e30c88d5e66b9e8ff28378425c7aa358bbd439779764a15dc998d"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_35/emgFilt.sto",
+      "sha256": "53fadca3819b65e5120ec5f61c5a403b3cbe451a495a6bf0321a90061b6d94a3"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_35/ik.sto",
+      "sha256": "fef85c19ecd9b29c44a41c2e5709af22aa3908234788feae96e50830d1f30c7f"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_35/Torque.sto",
+      "sha256": "f7c554fecfc0495f6a0eb5ed9c8875e025be5d94b1a25f320d64ee22f1240dbf"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_45/emgFilt.sto",
+      "sha256": "39307a3490f6b595683e82b0de016a52189aa9fd12a8517a6b9336aefad15f5b"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_45/ik.sto",
+      "sha256": "6ef5ec3e589811ef4bb0b1fd0c259edc0e6e458b65aeef27be72293451823dc8"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_45/Torque.sto",
+      "sha256": "77ee9cd30f92d5c0c892140fb2c8a191f67aa9c51d2bfc1e2a7e8273b246cc68"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_55/emgFilt.sto",
+      "sha256": "b767aea86acefbf730f4092aa376b3c8ce3327a32ede98f0f6309ecd882de2a7"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_55/ik.sto",
+      "sha256": "6b259dd91a993de2e1db56739fe33afe48b7da323ab6f1bc2e7fe4984a78d256"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_55/Torque.sto",
+      "sha256": "b78da686de880bcba287815eccd2cfd9aa653c2b3f10f2d9f5534e783fe7501e"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_65/emgFilt.sto",
+      "sha256": "0012da98b9be766057191c8ba6615b22a0d73244167e4551a3012d2f90c4d808"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_65/ik.sto",
+      "sha256": "a85bbdb3e5efa7ab183eea1c61d20e5dad5a42ed40c3070e5e1ae6e5d90ae413"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_5kg_65/Torque.sto",
+      "sha256": "08c893f43054776659c50ea4d72503eae6d85dee6fc3dfaddf872f648f5cb383"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_25/emgFilt.sto",
+      "sha256": "0e55d07c712b049c9c402f3b06bd2c651259e4aa6a1383f535ae1111afded09f"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_25/ik.sto",
+      "sha256": "efec1011835e94fa97ea11d676e0f0bd2ddc6679c1dda3a75c70fffcc1593496"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_25/Torque.sto",
+      "sha256": "034d6bfab01056a816a0e44786757d8b771ad58ee337ee107b34f9cbe212af88"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_35/emgFilt.sto",
+      "sha256": "d3b473cb1ab7f5058e1fa8198c216340e605626ff7331aaf3bbfd5abca7f480c"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_35/ik.sto",
+      "sha256": "4eb1d2052d94ad8b98afbb853b417b1cfc78f619c0f51de6b87ff2b81b4a8186"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_35/Torque.sto",
+      "sha256": "72bfb11a3e6a814f45e49ab360c98cb808b7aa96c24613429f9fa04ea236a463"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_45/emgFilt.sto",
+      "sha256": "b609ab367c59ed09e1e0fdf7fe0d94c5a127d299f8c469e96bb9fb34b72fef75"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_45/ik.sto",
+      "sha256": "517d16652533dbecba104d71c140d8fac854925e876e5d2c85d0efbadb6bc759"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_45/Torque.sto",
+      "sha256": "0ab1cdaac7f57de0565c281d1048ef12e57f04a81544204c01c774e882d8873e"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_55/emgFilt.sto",
+      "sha256": "ad884726d44bc25226c66098c397a70faa214b0c4eb48911a4d6cf0ea0f706c3"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_55/ik.sto",
+      "sha256": "d4b534febb72b26f382607d1f01d020460c1e141e44ca57c8ddf91a3d2a4bb2a"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_55/Torque.sto",
+      "sha256": "598a8d9949034714ac2ec048eafe382da829a9fa6ee6f134766843590451c382"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_65/emgFilt.sto",
+      "sha256": "9acbff9c61b7de45f6e90f7a738406bfa37a472e302eed1e8c9e618fcb71f437"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_65/ik.sto",
+      "sha256": "d80a8d03ba133a59471d51b514231ac4e7b32a8a8052b758eac66e1419698cc8"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_75kg_65/Torque.sto",
+      "sha256": "aefbf4ef2c19a930ca1f9210ca77311fb564230f4f6d887e0d465e82b4dd2e55"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_25/emgFilt.sto",
+      "sha256": "be2c01cbb85eb90a8ef648edda1c26229591115ad9d95626c30c965b1719b329"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_25/ik.sto",
+      "sha256": "9ce96bda52aea438951f1b9bd67ea5143ac0153485728eb9fe87251395cef3b0"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_25/Torque.sto",
+      "sha256": "05ab3077fdd4ccd192096b053c9db9133dfaa37de69da46be4bbd90bf7b4a7c6"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_35/emgFilt.sto",
+      "sha256": "ffc18c7ef0df35ae2c0faae58d01e0bab27065ec303b2835de15b32a5a3e84ac"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_35/ik.sto",
+      "sha256": "af57a2159b7517b0e813179c6d8a70440f7c38237fbbee06f49faa73e8285996"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_35/Torque.sto",
+      "sha256": "8426f3bc34f220304c4e7597888e4d42e052056178ec31e8c7bcaf6848a1514a"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_45/emgFilt.sto",
+      "sha256": "a8c9cac9fc4e09b92c3798bd1883f0c13e8aebe936ad5c2d86dfc57e97356ead"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_45/ik.sto",
+      "sha256": "67703ce0b7c830659f8246bbc0611ea73d6f01167c6c256fc10f40b79bf3d118"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_45/Torque.sto",
+      "sha256": "e67337a50078f6899a0c3eb519a73c15f4a605938d01fa7402edc07a3d3d3054"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_55/emgFilt.sto",
+      "sha256": "bc15af27af51be8cf286d5550a752650c6ed810fb759a3b0a085b724cfcebe70"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_55/ik.sto",
+      "sha256": "72d143ab5bb1cffc4fdf810715c759b747f943d252cd449341257a50f81ce9c9"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_55/Torque.sto",
+      "sha256": "f1465f12e4c720cec75cf91677724ea46b3e695ecb1d8c5bba6393c84fa566fe"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_65/emgFilt.sto",
+      "sha256": "8f2626876c22ea40ecad01fdc5e3330d45774e9b0670501b1542850c8e08cb1f"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_65/ik.sto",
+      "sha256": "e8905cf5214e762673b0bb4b0bb54b534d25dd26061ca6d6661971ad6ad433e4"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_10kg_65/Torque.sto",
+      "sha256": "c840e10125347ebb5e80b591a8e63a2dbc341e5866b97b695986d24e641e2acf"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_25/emgFilt.sto",
+      "sha256": "db7561572853f4a03ec350421d4e7e1eedae49b5afc8640dd37f6e6ddd418e45"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_25/ik.sto",
+      "sha256": "9bca547b5e87a4d3af1d64c36fa6e8df692dacda8a0cb1fabd5156b07213e5c6"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_25/Torque.sto",
+      "sha256": "99fe8424596fc7c50032fd8033c3d958df7691a85ffdc83b295d66cf34a8382e"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_35/emgFilt.sto",
+      "sha256": "11293e4e5d8579703304ed60f11ef92ec9bde5cb6b74d7ebabee2bf44a3ab49b"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_35/ik.sto",
+      "sha256": "bdf4b3b70d92b0212bffc999e9b497d4c39617b0523cf04ebde29d70649290a8"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_35/Torque.sto",
+      "sha256": "b7dcfda575adc6455addba4c1bbdc2db41e1f084f2fb0b239281fc618df8cbee"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_45/emgFilt.sto",
+      "sha256": "d9f6e2f6b3a9fab65c96a270cb648b2812fa3ae119315ce0f9e983002339fdb1"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_45/ik.sto",
+      "sha256": "a712ef8c3dcbaa56d8a656a99e48dc5ad63ef883456a7c2360cdde3da2f77766"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_45/Torque.sto",
+      "sha256": "8ca33c6754bf5a0f580caedfabcb94d60e6f610ac121d77d3ba0786cfec307a2"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_55/emgFilt.sto",
+      "sha256": "f7cb159c6c4a3bbaa26ae82f598220344695c4fce20c8b6ebc0b24b2c44c3533"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_55/ik.sto",
+      "sha256": "10ee0fd1a59c2c23933847a444318672fecb8c9c64ffab2258ff9ff466ede19a"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_55/Torque.sto",
+      "sha256": "807fc9cf8d3f78b7b87b0915275b5978e1b2539bdf91df9703dd77be2982b8fb"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_65/emgFilt.sto",
+      "sha256": "e0240d930099d95bc721cd044d4fa18069c3e692e1cc51c37815f98e344b6691"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_65/ik.sto",
+      "sha256": "7525f76576f3e33214810cd0b7cb9c7bbce61355123292e1269e3dc4ef82aa4c"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_125kg_65/Torque.sto",
+      "sha256": "b6866459f08929b8861851b0b66774ce7a9677b59825f3a2893518eca781a8fb"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_25/emgFilt.sto",
+      "sha256": "d5695b8825a2dc8f137def9a2535b90c641feb4ef9bc7ba003961d8902e0bbfd"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_25/ik.sto",
+      "sha256": "075d1f57e98ead4712189b0628f102f5651adcd8299823f523620c74c99b3519"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_25/Torque.sto",
+      "sha256": "a664eed58abfd25ab96a45f0e5f66936322b203ad50621f93376e5d4a68a0e3d"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_35/emgFilt.sto",
+      "sha256": "2aba5e2a838afcd9fb3139c4ad4239a71268c8e791a1d445616d95c95c5a44fc"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_35/ik.sto",
+      "sha256": "5903efb18d37397780fc5f414ded25b8993edc6890417977dbe11291eaa6226f"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_35/Torque.sto",
+      "sha256": "d1f28ba503c42a8fa1c42eee2296f505949a65448747931124a1688812d02748"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_45/emgFilt.sto",
+      "sha256": "00a82b062badce5d4889a4c596901da4aba72a4e5512b286b7c3d3be506dc49d"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_45/ik.sto",
+      "sha256": "ef74d7d4bba4219ed7c9d0c6cb000146c99e029c3adafbd9a5a59bd8b3b9f0de"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_45/Torque.sto",
+      "sha256": "58eb215f3ca67750aabad5cbd88c2f8323dbc9791b3a72f2ae7339d07047abdd"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_55/emgFilt.sto",
+      "sha256": "8333322804faedd0969d6a081c2dbc30c9c8241205b270814ceddb0625124e5e"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_55/ik.sto",
+      "sha256": "89230d48022b5f0bd2bd80dea23b7da51222233c3b32d884b29d3165047a5898"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_55/Torque.sto",
+      "sha256": "87b8922840ff3222dc8e0f8ea25254578a1977b72f0b2c69173dd3644b46b822"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_65/emgFilt.sto",
+      "sha256": "f9ff80bbf757c30066bb71f16278871021228ead4ee9fa8b7234fad8ac6e9a76"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_65/ik.sto",
+      "sha256": "858851e32851688a071c62fc72d955d7bdfd777920f19fedaa8b02fd0ed10910"
+    },
+    {
+      "file": "240528Pilot/dynamics_stoop_15kg_65/Torque.sto",
+      "sha256": "c419bccff97bb96641f72e0a0846b777b07b4145f30491481b205714dc819997"
+    }
+  ],
+  "generator_sha256": "d6a3b7ba28381caf2ad3f48e256ef68270705ea3b075fc832a2f6bd51033e5ec"
+}

@@ -1,0 +1,111 @@
+{
+  "id": "training_bse",
+  "original_folder": "Train the lumped muscle BSE model",
+  "entrypoints": [
+    "data_combination",
+    "data_combination_Qualisys",
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "Lumped_System_Dynamics",
+    "parameters",
+    "Sewing_model_with_coeffs",
+    "Train_Lumped_muscle_model"
+  ],
+  "files": [
+    {
+      "source": "data/processed/training_bse/activation.mat",
+      "target": "activation.mat"
+    },
+    {
+      "source": "src/shared/ActivationDynamics.m",
+      "target": "ActivationDynamics.m"
+    },
+    {
+      "source": "data/processed/training_bse/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "data/processed/root/Combination1.mat",
+      "target": "Combination1.mat"
+    },
+    {
+      "source": "data/processed/training_bse/Combination_Qualisys.mat",
+      "target": "Combination_Qualisys.mat"
+    },
+    {
+      "source": "src/workflows/training_bse/Cost_function_from5to15.m",
+      "target": "Cost_function_from5to15.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/data_combination.m",
+      "target": "data_combination.m"
+    },
+    {
+      "source": "src/workflows/training_bse/data_combination_Qualisys.m",
+      "target": "data_combination_Qualisys.m"
+    },
+    {
+      "source": "models/training_bse/dynamic_function.slx",
+      "target": "dynamic_function.slx"
+    },
+    {
+      "source": "src/variants/map_predictor/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "src/shared/lowpassfilter.m",
+      "target": "lowpassfilter.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/Lumped_System_Dynamics.m",
+      "target": "Lumped_System_Dynamics.m"
+    },
+    {
+      "source": "src/shared/normalize_max_min.m",
+      "target": "normalize_max_min.m"
+    },
+    {
+      "source": "src/shared/parameters.m",
+      "target": "parameters.m"
+    },
+    {
+      "source": "src/shared/Sewing_model_with_coeffs.m",
+      "target": "Sewing_model_with_coeffs.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/simplify_pulley_model.m",
+      "target": "simplify_pulley_model.m"
+    },
+    {
+      "source": "data/processed/training_bse/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/variants/training_qualisys/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "src/shared/Torque_function_constant_from5to15.m",
+      "target": "Torque_function_constant_from5to15.m"
+    },
+    {
+      "source": "data/processed/training_bse__from_theta_to_torque/Torque_inverse.mat",
+      "target": "Torque_inverse.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Torque_real_1.mat",
+      "target": "Torque_real_1.mat"
+    },
+    {
+      "source": "data/processed/training_bse/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    },
+    {
+      "source": "src/variants/training_qualisys/Train_Lumped_muscle_model.m",
+      "target": "Train_Lumped_muscle_model.m"
+    }
+  ]
+}

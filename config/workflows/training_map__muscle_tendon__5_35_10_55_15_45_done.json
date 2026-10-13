@@ -1,0 +1,50 @@
+{
+  "id": "training_map__muscle_tendon__5_35_10_55_15_45_done",
+  "original_folder": "Train the lumped muscle BSE model with MAP/Step 2/5_35_10_55_15_45_done",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "Train_Lumped_muscle_model_EMG_and_LMT_to_MTF"
+  ],
+  "files": [
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__case_library/coeffs_5_35_10_55_15_45.mat",
+      "target": "case library/coeffs_5_35_10_55_15_45.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/Combination.mat",
+      "target": "case library/Combination_5_35_10_55_15_45.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__case_library/coeffs_5_35_10_55_15_45.mat",
+      "target": "coeffs.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done/Cost_function.m",
+      "target": "Cost_function.m"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__5_35_10_55_15_45_done/Train_Lumped_muscle_model_EMG_and_LMT_to_MTF.m",
+      "target": "Train_Lumped_muscle_model_EMG_and_LMT_to_MTF.m"
+    }
+  ]
+}

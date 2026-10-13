@@ -1,0 +1,104 @@
+{
+  "id": "control_experimental",
+  "original_folder": "Simulate the controller with the experimental activation",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs_thesis",
+    "NNMF_component",
+    "offline_simulator_NMPC_quasimodo_incremental_MPC",
+    "simplify_pulley_model_fusion_MTU_test_coeffs"
+  ],
+  "files": [
+    {
+      "source": "data/processed/control_experimental/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "src/workflows/control_experimental/Control_model.m",
+      "target": "Control_model.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/Cost_function_from5to15.m",
+      "target": "Cost_function_from5to15.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/Lumped_model_check_with_coeffs_thesis.m",
+      "target": "Lumped_model_check_with_coeffs_thesis.m"
+    },
+    {
+      "source": "data/processed/control_experimental/Model_theta.mat",
+      "target": "Model_theta.mat"
+    },
+    {
+      "source": "data/processed/control_experimental/model_torque.mat",
+      "target": "model_torque.mat"
+    },
+    {
+      "source": "src/workflows/control_experimental/mpc_cost_function.m",
+      "target": "mpc_cost_function.m"
+    },
+    {
+      "source": "src/shared/mpc_cost_function_increment.m",
+      "target": "mpc_cost_function_increment.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/MTU.m",
+      "target": "MTU.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/MTU_function.m",
+      "target": "MTU_function.m"
+    },
+    {
+      "source": "models/control_experimental/NMPC_controller.slx",
+      "target": "NMPC_controller.slx"
+    },
+    {
+      "source": "src/workflows/control_experimental/NNMF_component.m",
+      "target": "NNMF_component.m"
+    },
+    {
+      "source": "src/shared/nonlinear_system.m",
+      "target": "nonlinear_system.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/nonlinear_system_period.m",
+      "target": "nonlinear_system_period.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/offline_simulator_NMPC_quasimodo_incremental_MPC.m",
+      "target": "offline_simulator_NMPC_quasimodo_incremental_MPC.m"
+    },
+    {
+      "source": "src/variants/control_experimental/simplify_pulley_model.m",
+      "target": "simplify_pulley_model.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/simplify_pulley_model_fusion_MTU_test_coeffs.m",
+      "target": "simplify_pulley_model_fusion_MTU_test_coeffs.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/state_constraints.m",
+      "target": "state_constraints.m"
+    },
+    {
+      "source": "data/processed/control_experimental/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/control_experimental/Torque_function.m",
+      "target": "Torque_function.m"
+    },
+    {
+      "source": "src/workflows/control_experimental/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "data/processed/control_experimental/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    }
+  ]
+}

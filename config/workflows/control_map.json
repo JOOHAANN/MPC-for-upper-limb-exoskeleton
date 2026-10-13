@@ -1,0 +1,224 @@
+{
+  "id": "control_map",
+  "original_folder": "Simulate the controller with the MAP activation",
+  "entrypoints": [
+    "convert_const",
+    "data_combination",
+    "EA_convertor_test",
+    "Fitting_Double_gauss_model",
+    "Fitting_exp",
+    "Fitting_Poly",
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "MAP_output_model_fusion",
+    "NNMF_component",
+    "offline_simulator_NMPC_quasimodo_incremental_MPC_with_MAP",
+    "test_MAP",
+    "untitled"
+  ],
+  "files": [
+    {
+      "source": "data/processed/map_predictor/allreg_2step_Add_all.mat",
+      "target": "allreg_2step_Add_all.mat"
+    },
+    {
+      "source": "src/shared/auto_select_high_order_models.m",
+      "target": "auto_select_high_order_models.m"
+    },
+    {
+      "source": "src/shared/auto_select_model.m",
+      "target": "auto_select_model.m"
+    },
+    {
+      "source": "data/processed/control_map/baseline_data.mat",
+      "target": "baseline_data.mat"
+    },
+    {
+      "source": "data/processed/control_map/Baselines.mat",
+      "target": "Baselines.mat"
+    },
+    {
+      "source": "data/processed/control_map/coeffs.mat",
+      "target": "coeffs.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Combination_EA.mat",
+      "target": "Combination_EA.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Combination_raw.mat",
+      "target": "Combination_raw.mat"
+    },
+    {
+      "source": "src/shared/convert_const.m",
+      "target": "convert_const.m"
+    },
+    {
+      "source": "src/variants/map_predictor/data_combination.m",
+      "target": "data_combination.m"
+    },
+    {
+      "source": "src/variants/map_predictor/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "src/shared/EA_convertor_test.m",
+      "target": "EA_convertor_test.m"
+    },
+    {
+      "source": "data/processed/control_map/EMG_matrix.mat",
+      "target": "EMG_matrix.mat"
+    },
+    {
+      "source": "src/shared/ExcAct.m",
+      "target": "ExcAct.m"
+    },
+    {
+      "source": "src/shared/excitation_primitives.m",
+      "target": "excitation_primitives.m"
+    },
+    {
+      "source": "src/workflows/control_map/excitation_primitives_double_gauss.m",
+      "target": "excitation_primitives_double_gauss.m"
+    },
+    {
+      "source": "src/shared/Fitting_Double_gauss_model.m",
+      "target": "Fitting_Double_gauss_model.m"
+    },
+    {
+      "source": "src/shared/Fitting_exp.m",
+      "target": "Fitting_exp.m"
+    },
+    {
+      "source": "src/shared/Fitting_Poly.m",
+      "target": "Fitting_Poly.m"
+    },
+    {
+      "source": "src/shared/FutureStimActiv.m",
+      "target": "FutureStimActiv.m"
+    },
+    {
+      "source": "data/processed/map_predictor/gaussXP_new.mat",
+      "target": "gaussXP_new.mat"
+    },
+    {
+      "source": "src/shared/getMAP.m",
+      "target": "getMAP.m"
+    },
+    {
+      "source": "src/workflows/control_map/getWeights.m",
+      "target": "getWeights.m"
+    },
+    {
+      "source": "src/workflows/control_map/getXP.m",
+      "target": "getXP.m"
+    },
+    {
+      "source": "src/shared/getXP_without_training.m",
+      "target": "getXP_without_training.m"
+    },
+    {
+      "source": "data/processed/map_predictor/Increment_Speed.mat",
+      "target": "Increment_Speed.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Increment_Weight.mat",
+      "target": "Increment_Weight.mat"
+    },
+    {
+      "source": "src/shared/lowpassfilter.m",
+      "target": "lowpassfilter.m"
+    },
+    {
+      "source": "src/workflows/control_map/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "src/variants/control_map/MAP_model.m",
+      "target": "MAP_model.m"
+    },
+    {
+      "source": "src/workflows/control_map/MAP_output_model_fusion.m",
+      "target": "MAP_output_model_fusion.m"
+    },
+    {
+      "source": "src/shared/mpc_cost_function_increment.m",
+      "target": "mpc_cost_function_increment.m"
+    },
+    {
+      "source": "src/workflows/control_map/NNMF_component.m",
+      "target": "NNMF_component.m"
+    },
+    {
+      "source": "src/variants/map_predictor/nonlinear_system_period.m",
+      "target": "nonlinear_system_period.m"
+    },
+    {
+      "source": "src/shared/normalize_max_min.m",
+      "target": "normalize_max_min.m"
+    },
+    {
+      "source": "src/workflows/control_map/offline_simulator_NMPC_quasimodo_incremental_MPC_with_MAP.m",
+      "target": "offline_simulator_NMPC_quasimodo_incremental_MPC_with_MAP.m"
+    },
+    {
+      "source": "data/processed/control_map/Primitives_fit_x.mat",
+      "target": "Primitives_fit_x.mat"
+    },
+    {
+      "source": "data/processed/control_map/Primitives_fit_y.mat",
+      "target": "Primitives_fit_y.mat"
+    },
+    {
+      "source": "data/processed/control_map/pv_coefficients.mat",
+      "target": "pv_coefficients.mat"
+    },
+    {
+      "source": "data/processed/control_map/pw_coefficients.mat",
+      "target": "pw_coefficients.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/reg_2step_Add_all.mat",
+      "target": "reg_2step_Add_all.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/regression_const.mat",
+      "target": "regression_const.mat"
+    },
+    {
+      "source": "src/workflows/control_map/test_MAP.m",
+      "target": "test_MAP.m"
+    },
+    {
+      "source": "data/processed/control_map/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/control_map/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "data/processed/map_predictor/Torque_real_1.mat",
+      "target": "Torque_real_1.mat"
+    },
+    {
+      "source": "data/processed/control_map/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    },
+    {
+      "source": "src/variants/map_predictor/untitled.m",
+      "target": "untitled.m"
+    },
+    {
+      "source": "data/processed/map_predictor/weights_generic.mat",
+      "target": "weights_generic.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/withExceptionsreg_2step_Add_all.mat",
+      "target": "withExceptionsreg_2step_Add_all.mat"
+    }
+  ]
+}

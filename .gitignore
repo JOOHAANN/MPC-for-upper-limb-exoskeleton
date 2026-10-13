@@ -1,0 +1,28 @@
+# Generated experiment workspaces and MATLAB caches
+/results/*
+!/results/README.md
+slprj/
+*.slxc
+*.asv
+*.m~
+*.autosave
+*.log
+*.mexw64
+*.mexa64
+*.mexmaci64
+/experiments/hill_forward/*.dll
+/experiments/hill_compliant/*.dll
+
+# Large local recordings and original papers/figures (kept on disk)
+/data/raw/*
+!/data/raw/README.md
+/docs/reference/
+
+# OS/editor metadata
+desktop.ini
+Thumbs.db
+.DS_Store
+._*
+.vscode/
+.idea/
+__pycache__/

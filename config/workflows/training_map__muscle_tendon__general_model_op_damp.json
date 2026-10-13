@@ -1,0 +1,91 @@
+{
+  "id": "training_map__muscle_tendon__general_model_op_damp",
+  "original_folder": "Train the lumped muscle BSE model with MAP/Step 2/General_Model_op_damp",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "MAP_output_model_fusion",
+    "Train_Lumped_muscle_model_EMG_and_LMT_to_MTF"
+  ],
+  "files": [
+    {
+      "source": "src/shared/calculate_cost_hybrid.m",
+      "target": "calculate_cost_hybrid.m"
+    },
+    {
+      "source": "src/shared/calculate_cost_threshold.m",
+      "target": "calculate_cost_threshold.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__case_library/coeffs_5_35_10_55_15_45.mat",
+      "target": "case library/coeffs_5_35_10_55_15_45.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/Combination.mat",
+      "target": "case library/Combination_5_35_10_55_15_45.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model_op_damp/coeffs.mat",
+      "target": "coeffs.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_35_10_55_15_45_done__build_data/Combination.mat",
+      "target": "Combination_5_35_10_55_15_45.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_45_10_35_15_55_done__build_data/Combination.mat",
+      "target": "Combination_5_45_10_35_15_55.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__5_55_10_45_15_35_done__build_data/Combination.mat",
+      "target": "Combination_5_55_10_45_15_35.mat"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model_op_damp/Combination_total.mat",
+      "target": "Combination_total.mat"
+    },
+    {
+      "source": "src/workflows/training_map__muscle_tendon__general_model_op_damp/Cost_function.m",
+      "target": "Cost_function.m"
+    },
+    {
+      "source": "src/workflows/training_map__muscle_tendon__general_model_op_damp/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__general_model_op_damp/MAP_output_model_fusion.m",
+      "target": "MAP_output_model_fusion.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model_op_damp/matlab.mat",
+      "target": "matlab.mat"
+    },
+    {
+      "source": "src/variants/training_map__muscle_tendon__general_model_op_damp/run_model_stitcher.m",
+      "target": "run_model_stitcher.m"
+    },
+    {
+      "source": "src/shared/solver_comparison.m",
+      "target": "solver_comparison.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model_op_damp/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/training_map__muscle_tendon__general_model_op_damp/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "data/processed/training_map__muscle_tendon__general_model_op_damp/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/training_map__muscle_tendon__general_model_op_damp/Train_Lumped_muscle_model_EMG_and_LMT_to_MTF.m",
+      "target": "Train_Lumped_muscle_model_EMG_and_LMT_to_MTF.m"
+    }
+  ]
+}

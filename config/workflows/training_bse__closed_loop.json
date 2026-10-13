@@ -1,0 +1,30 @@
+{
+  "id": "training_bse__closed_loop",
+  "original_folder": "Train the lumped muscle BSE model/Step 3 Closed-loop musculoskeletal model",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "Train_Lumped_muscle_model"
+  ],
+  "files": [
+    {
+      "source": "data/processed/demo_calibration__geometry/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "src/workflows/training_bse__closed_loop/Cost_function.m",
+      "target": "Cost_function.m"
+    },
+    {
+      "source": "src/workflows/training_bse__closed_loop/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "src/workflows/training_bse__closed_loop/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "src/workflows/training_bse__closed_loop/Train_Lumped_muscle_model.m",
+      "target": "Train_Lumped_muscle_model.m"
+    }
+  ]
+}

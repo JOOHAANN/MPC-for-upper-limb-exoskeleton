@@ -1,0 +1,56 @@
+{
+  "id": "training_map__old__geometry",
+  "original_folder": "Train the lumped muscle BSE model with MAP/old/Step 1 From LMT to MTF Calibrate Geometric model",
+  "entrypoints": [
+    "compare_fd_activation_only_demo",
+    "demo_theta_ls",
+    "Lumped_model_check_with_coeffs_thesis_combination",
+    "Train_Lumped_muscle_model_Calibrate_Geo_model"
+  ],
+  "files": [
+    {
+      "source": "data/processed/map_predictor/Combination.mat",
+      "target": "Combination.mat"
+    },
+    {
+      "source": "data/processed/training_bse/Combination_Qualisys.mat",
+      "target": "Combination_Qualisys.mat"
+    },
+    {
+      "source": "src/shared/compare_fd_activation_only_demo.m",
+      "target": "compare_fd_activation_only_demo.m"
+    },
+    {
+      "source": "src/workflows/training_map__old__geometry/Cost_function.m",
+      "target": "Cost_function.m"
+    },
+    {
+      "source": "src/shared/demo_ekf_rts_torque_measurement.m",
+      "target": "demo_ekf_rts_torque_measurement.m"
+    },
+    {
+      "source": "src/shared/demo_theta_ls.m",
+      "target": "demo_theta_ls.m"
+    },
+    {
+      "source": "src/variants/demo_joint_damping__geometry/Lumped_model_check_with_coeffs_thesis_combination.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_combination.m"
+    },
+    {
+      "source": "data/processed/training_map__old__geometry/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/training_map__old__geometry/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "data/processed/training_map__old__geometry/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    },
+    {
+      "source": "src/workflows/training_map__old__geometry/Train_Lumped_muscle_model_Calibrate_Geo_model.m",
+      "target": "Train_Lumped_muscle_model_Calibrate_Geo_model.m"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "training_qualisys__from_lmt_to_mtf",
+  "original_folder": "Train the lumped muscle BSE model Qualisys/From LMT to MTF",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs",
+    "Lumped_model_training_from5to15",
+    "Lumped_System_Dynamics"
+  ],
+  "files": [
+    {
+      "source": "data/processed/training_qualisys__from_lmt_to_mtf/activation.mat",
+      "target": "activation.mat"
+    },
+    {
+      "source": "src/shared/ActivationDynamics.m",
+      "target": "ActivationDynamics.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/Cost_function_from5to15.m",
+      "target": "Cost_function_from5to15.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/Lumped_model_check_with_coeffs.m",
+      "target": "Lumped_model_check_with_coeffs.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/Lumped_model_training_from5to15.m",
+      "target": "Lumped_model_training_from5to15.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/Lumped_System_Dynamics.m",
+      "target": "Lumped_System_Dynamics.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/nonlincon.m",
+      "target": "nonlincon.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/simplify_pulley_model.m",
+      "target": "simplify_pulley_model.m"
+    },
+    {
+      "source": "src/workflows/training_qualisys__from_lmt_to_mtf/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "src/shared/Torque_function_constant_from5to15.m",
+      "target": "Torque_function_constant_from5to15.m"
+    },
+    {
+      "source": "data/processed/training_bse__from_theta_to_torque/Torque_inverse.mat",
+      "target": "Torque_inverse.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Torque_real_1.mat",
+      "target": "Torque_real_1.mat"
+    }
+  ]
+}

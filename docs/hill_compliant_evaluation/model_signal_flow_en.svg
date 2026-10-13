@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1296pt" height="648pt" viewBox="0 0 1296 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-13T23:21:38.509594</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1296 648 
+L 1296 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 254.4777 166.06296 
+L 594.9693 166.06296 
+Q 602.5023 166.06296 602.5023 161.07336 
+L 602.5023 110.17944 
+Q 602.5023 105.18984 594.9693 105.18984 
+L 254.4777 105.18984 
+Q 246.9447 105.18984 246.9447 110.17944 
+L 246.9447 161.07336 
+Q 246.9447 166.06296 254.4777 166.06296 
+z
+" clip-path="url(#p7048ded358)" style="fill: #edf5fc; stroke: #1764ad; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 695.1582 166.06296 
+L 1035.6498 166.06296 
+Q 1043.1828 166.06296 1043.1828 161.07336 
+L 1043.1828 110.17944 
+Q 1043.1828 105.18984 1035.6498 105.18984 
+L 695.1582 105.18984 
+Q 687.6252 105.18984 687.6252 110.17944 
+L 687.6252 161.07336 
+Q 687.6252 166.06296 695.1582 166.06296 
+z
+" clip-path="url(#p7048ded358)" style="fill: #fff3ec; stroke: #d65b22; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 426.661176 166.054045 
+Q 528.301918 191.759316 627.991626 216.971165 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #1764ad; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 623.249071 212.883601 
+L 627.991626 216.971165 
+L 621.876042 218.31267 
+z
+" clip-path="url(#p7048ded358)" style="fill: #1764ad; stroke: #1764ad; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 863.475807 166.100411 
+Q 771.240162 191.759772 680.943351 216.879763 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #d65b22; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 687.088916 218.076435 
+L 680.943351 216.879763 
+L 685.588028 212.681314 
+z
+" clip-path="url(#p7048ded358)" style="fill: #d65b22; stroke: #d65b22; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 405.1377 265.85496 
+L 884.9898 265.85496 
+Q 892.5228 265.85496 892.5228 260.86536 
+L 892.5228 210.96936 
+Q 892.5228 205.97976 884.9898 205.97976 
+L 405.1377 205.97976 
+Q 397.6047 205.97976 397.6047 210.96936 
+L 397.6047 260.86536 
+Q 397.6047 265.85496 405.1377 265.85496 
+z
+" clip-path="url(#p7048ded358)" style="fill: #f4f7fb; stroke: #24354a; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 643.1805 267.853693 
+Q 643.1805 298.536459 643.1805 327.206764 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #24354a; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 645.9805 321.606764 
+L 643.1805 327.206764 
+L 640.3805 321.606764 
+z
+" clip-path="url(#p7048ded358)" style="fill: #24354a; stroke: #24354a; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 66.1527 428.01696 
+L 372.7458 428.01696 
+Q 380.2788 428.01696 380.2788 423.02736 
+L 380.2788 337.20624 
+Q 380.2788 332.21664 372.7458 332.21664 
+L 66.1527 332.21664 
+Q 58.6197 332.21664 58.6197 337.20624 
+L 58.6197 423.02736 
+Q 58.6197 428.01696 66.1527 428.01696 
+z
+" clip-path="url(#p7048ded358)" style="fill: #eef9f7; stroke: #18847a; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 446.5692 428.01696 
+L 824.7258 428.01696 
+Q 832.2588 428.01696 832.2588 423.02736 
+L 832.2588 337.20624 
+Q 832.2588 332.21664 824.7258 332.21664 
+L 446.5692 332.21664 
+Q 439.0362 332.21664 439.0362 337.20624 
+L 439.0362 423.02736 
+Q 439.0362 428.01696 446.5692 428.01696 
+z
+" clip-path="url(#p7048ded358)" style="fill: #edf5fc; stroke: #1764ad; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 906.0822 428.01696 
+L 1227.7413 428.01696 
+Q 1235.2743 428.01696 1235.2743 423.02736 
+L 1235.2743 337.20624 
+Q 1235.2743 332.21664 1227.7413 332.21664 
+L 906.0822 332.21664 
+Q 898.5492 332.21664 898.5492 337.20624 
+L 898.5492 423.02736 
+Q 898.5492 428.01696 906.0822 428.01696 
+z
+" clip-path="url(#p7048ded358)" style="fill: #f6f0fc; stroke: #7952a8; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 382.276351 382.6116 
+Q 409.656811 382.6116 435.024811 382.6116 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #18847a; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 429.424811 379.8116 
+L 435.024811 382.6116 
+L 429.424811 385.4116 
+z
+" clip-path="url(#p7048ded358)" style="fill: #18847a; stroke: #18847a; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 835.008134 382.6116 
+Q 865.78002 382.6116 894.539446 382.6116 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #1764ad; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 888.939446 379.8116 
+L 894.539446 382.6116 
+L 888.939446 385.4116 
+z
+" clip-path="url(#p7048ded358)" style="fill: #1764ad; stroke: #1764ad; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 906.0822 275.83416 
+L 1227.7413 275.83416 
+Q 1235.2743 275.83416 1235.2743 270.84456 
+L 1235.2743 206.97768 
+Q 1235.2743 201.98808 1227.7413 201.98808 
+L 906.0822 201.98808 
+Q 898.5492 201.98808 898.5492 206.97768 
+L 898.5492 270.84456 
+Q 898.5492 275.83416 906.0822 275.83416 
+z
+" clip-path="url(#p7048ded358)" style="fill: #f7f8fa; stroke: #79879a; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 1067.2884 277.833563 
+Q 1067.2884 304.024339 1067.2884 328.202653 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #79879a; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 1070.0884 322.602653 
+L 1067.2884 328.202653 
+L 1064.4884 322.602653 
+z
+" clip-path="url(#p7048ded358)" style="fill: #79879a; stroke: #79879a; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 217.566 442.981131 
+Q 217.566 436.49824 217.566 432.02781 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #18847a; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 214.766 437.62781 
+L 217.566 432.02781 
+L 220.366 437.62781 
+z
+" clip-path="url(#p7048ded358)" style="fill: #18847a; stroke: #18847a; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 484.2342 587.68416 
+L 832.2588 587.68416 
+Q 839.7918 587.68416 839.7918 582.69456 
+L 839.7918 523.31832 
+Q 839.7918 518.32872 832.2588 518.32872 
+L 484.2342 518.32872 
+Q 476.7012 518.32872 476.7012 523.31832 
+L 476.7012 582.69456 
+Q 476.7012 587.68416 484.2342 587.68416 
+z
+" clip-path="url(#p7048ded358)" style="fill: #f4f7fb; stroke: #24354a; stroke-width: 1.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 635.6475 430.51409 
+Q 635.6475 473.669649 635.6475 514.812747 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #1764ad; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 638.4475 509.212747 
+L 635.6475 514.812747 
+L 632.8475 509.212747 
+z
+" clip-path="url(#p7048ded358)" style="fill: #1764ad; stroke: #1764ad; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 1065.369368 480.475132 
+Q 953.16229 513.588942 842.885377 546.133135 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #7952a8; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 849.0489 547.233581 
+L 842.885377 546.133135 
+L 847.463847 541.862584 
+z
+" clip-path="url(#p7048ded358)" style="fill: #7952a8; stroke: #7952a8; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 1067.2884 428.01696 
+L 1067.2884 479.9088 
+L 217.566 479.9088 
+L 217.566 428.01696 
+" clip-path="url(#p7048ded358)" style="fill: none; stroke: #18847a; stroke-width: 1.9; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #1764ad" transform="translate(363.251469 128.734681)">Experimental inputs</text>
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #1764ad" transform="translate(326.0935 151.151087)">Back + recorded front activation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #d65b22" transform="translate(829.739 128.734681)">MAP inputs</text>
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #d65b22" transform="translate(735.255406 149.759837)">Back + auxiliary generated front activation</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #24354a" transform="translate(507.931563 228.94361)">Activation dynamics + estimated recruitment</text>
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #24354a" transform="translate(530.68375 250.132829)">Source-specific calibration is allowed</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #18847a" transform="translate(166.156281 362.632112)">Muscle geometry</text>
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #18847a" transform="translate(107.526906 383.7393)">MT lengths from the predicted angle</text>
+    <!-- $L_{MT,i}(\theta)$ -->
+    <g style="fill: #18847a" transform="translate(194.45925 404.848675)">
+     <text>
+      <tspan x="0" y="-0.25" style="font-style: oblique; font-size: 14px; font-family: 'DejaVu Sans'; fill: #18847a">L</tspan>
+      <tspan x="35.833301" y="-0.25" style="font-style: oblique; font-size: 14px; font-family: 'DejaVu Sans'; fill: #18847a">θ</tspan>
+      <tspan x="7.799805" y="1.849993" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #18847a">M</tspan>
+      <tspan x="16.255176" y="1.849993" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #18847a">T</tspan>
+      <tspan x="27.26582" y="1.849993" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #18847a">i</tspan>
+      <tspan x="22.241406" y="1.849993" style="font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #18847a">,</tspan>
+      <tspan x="30.371387" y="-0.25" style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #18847a">(</tspan>
+      <tspan x="44.39873" y="-0.25" style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #18847a">)</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #1764ad" transform="translate(529.627031 362.714144)">Two Hill units + compliant tendons</text>
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #1764ad" transform="translate(513.474531 383.821331)">Coupled fiber / tendon force equilibrium</text>
+    <!-- $F_{T,b},\ F_{T,f}$ -->
+    <g style="fill: #1764ad" transform="translate(605.4775 404.568675)">
+     <text>
+      <tspan x="0" y="-0.796875" style="font-style: oblique; font-size: 14px; font-family: 'DejaVu Sans'; fill: #1764ad">F</tspan>
+      <tspan x="37.390482" y="-0.796875" style="font-style: oblique; font-size: 14px; font-family: 'DejaVu Sans'; fill: #1764ad">F</tspan>
+      <tspan x="8.052734" y="1.303118" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #1764ad">T</tspan>
+      <tspan x="19.063379" y="1.303118" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #1764ad">b</tspan>
+      <tspan x="45.443216" y="1.303118" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #1764ad">T</tspan>
+      <tspan x="56.453861" y="1.303118" style="font-style: oblique; font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #1764ad">f</tspan>
+      <tspan x="14.038965" y="1.303118" style="font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #1764ad">,</tspan>
+      <tspan x="51.429447" y="1.303118" style="font-size: 9.8px; font-family: 'DejaVu Sans'; fill: #1764ad">,</tspan>
+      <tspan x="25.666895" y="-0.796875" style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #1764ad">,</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #7952a8" transform="translate(999.862688 364.023362)">Trunk motion balance</text>
+    <text style="font-size: 14px; font-family: 'Arial'; fill: #7952a8" transform="translate(956.623469 383.7393)">Hill + gravity + damping + soft limits</text>
+    <!-- $\theta,\ \omega$ -->
+    <g style="fill: #7952a8" transform="translate(1050.88175 405.688675)">
+     <text>
+      <tspan x="0" y="-0.25" style="font-style: oblique; font-size: 14px; font-family: 'DejaVu Sans'; fill: #7952a8">θ</tspan>
+      <tspan x="20.289017" y="-0.25" style="font-style: oblique; font-size: 14px; font-family: 'DejaVu Sans'; fill: #7952a8">ω</tspan>
+      <tspan x="8.56543" y="-0.25" style="font-size: 14px; font-family: 'DejaVu Sans'; fill: #7952a8">,</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_7">
+    <!-- $\tau_{Hill}$ -->
+    <g style="fill: #1764ad" transform="translate(854.6139 355.1688)">
+     <text>
+      <tspan x="0" y="-0.796875" style="font-style: oblique; font-size: 15px; font-family: 'DejaVu Sans'; fill: #1764ad">τ</tspan>
+      <tspan x="9.030762" y="1.453118" style="font-style: oblique; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1764ad">H</tspan>
+      <tspan x="16.92627" y="1.453118" style="font-style: oblique; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1764ad">i</tspan>
+      <tspan x="19.843506" y="1.453118" style="font-style: oblique; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1764ad">l</tspan>
+      <tspan x="22.760742" y="1.453118" style="font-style: oblique; font-size: 10.5px; font-family: 'DejaVu Sans'; fill: #1764ad">l</tspan>
+     </text>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 13px; font-family: 'Arial'; fill: #79879a" transform="translate(1019.589719 222.754558)">Known load m(t)</text>
+    <text style="font-size: 13px; font-family: 'Arial'; fill: #79879a" transform="translate(1004.766672 242.351042)">Shared M, L1, L2, phi</text>
+    <text style="font-size: 13px; font-family: 'Arial'; fill: #79879a" transform="translate(984.905109 261.795183)">Joint damping and soft limits</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 12px; font-family: 'Arial'; fill: #18847a" transform="translate(133.714313 500.294784)">Predicted angle updates geometry</text>
+    <text style="font-size: 12px; font-family: 'Arial'; fill: #18847a" transform="translate(126.3915 517.3308)">Coupled within the same implicit step</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 15px; font-family: 'Arial'; fill: #24354a" transform="translate(631.983609 545.718549)">Outputs</text>
+    <text style="font-size: 15px; font-family: 'Arial'; fill: #24354a" transform="translate(575.700797 568.058003)">Net Hill torque and angle</text>
+   </g>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 25px; font-family: 'Arial'; text-anchor: start; fill: #24354a" x="58.32" y="38.88" transform="rotate(-0 58.32 38.88)">Torque and angle emerge from the same coupled Hill system</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 14px; font-family: 'Arial'; text-anchor: start; fill: #79879a" x="58.32" y="71.28" transform="rotate(-0 58.32 71.28)">Choose one source per rollout; identical model equations</text>
+  </g>
+  <g id="text_13">
+   <text style="font-size: 13px; font-family: 'Arial'; fill: #79879a" transform="translate(64.8 596.079687)">References are used for calibration/evaluation and the initial theta0, omega0 only.</text>
+   <text style="font-size: 13px; font-family: 'Arial'; fill: #79879a" transform="translate(64.8 615.6)">Future reference samples do not enter the rollout or generate predicted torque.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p7048ded358">
+   <rect x="51.84" y="90.72" width="1205.28" height="498.96"/>
+  </clipPath>
+ </defs>
+</svg>

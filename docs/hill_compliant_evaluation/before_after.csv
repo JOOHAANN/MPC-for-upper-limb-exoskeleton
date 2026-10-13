@@ -1,0 +1,9 @@
+mode,version,source,thetaRMSEDegrees,torqueRMSENm,twoValleyMatches,boundaryPeakNm
+Calibration,Previous fixed M/L1,Experimental activation,13.494232799711106,51.78274882630173,9,0.0
+Calibration,Previous fixed M/L1,MAP activation,11.251425255549846,54.5193359753828,9,0.0
+Calibration,Optimized geometry and soft limits,Experimental activation,13.106728299246324,29.745208540389967,9,31.8038669176122
+Calibration,Optimized geometry and soft limits,MAP activation,11.631159256510808,31.182189048043547,9,52.967683450784
+Whole-speed holdout,Previous fixed M/L1,Experimental activation,16.88594750595744,48.39094683947052,9,0.0
+Whole-speed holdout,Previous fixed M/L1,MAP activation,12.234742778433953,55.15707636288004,8,0.0
+Whole-speed holdout,Optimized geometry and soft limits,Experimental activation,18.33740086559268,37.397822679382,9,31.000256202104
+Whole-speed holdout,Optimized geometry and soft limits,MAP activation,14.299995344841586,37.37267784670215,9,39.9999650381809

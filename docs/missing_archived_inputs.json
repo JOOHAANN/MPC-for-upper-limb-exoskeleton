@@ -1,0 +1,22 @@
+[
+  [
+    "training_map__muscle_tendon__general_model_op_damp",
+    "MAP_output_model_fusion.m",
+    "baseline_data.mat"
+  ],
+  [
+    "training_map__muscle_tendon__general_model_op_damp",
+    "MAP_output_model_fusion.m",
+    "Combination_raw.mat"
+  ],
+  [
+    "training_map__muscle_tendon__general_model_op_scale",
+    "MAP_output_model_fusion.m",
+    "baseline_data.mat"
+  ],
+  [
+    "training_map__muscle_tendon__general_model_op_scale",
+    "MAP_output_model_fusion.m",
+    "Combination_raw.mat"
+  ]
+]

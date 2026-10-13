@@ -1,0 +1,257 @@
+mode,source,heldSpeed,parameter,value,unit,atBound
+Calibration,1,0,backCapacity,1085.152212705937,Nm,False
+Calibration,1,0,backArmToLength,0.2500000003743583,1,True
+Calibration,1,0,backReferenceLength,1.0815430739230638,1,False
+Calibration,1,0,jointDamping,34.99999909059171,Nm s/rad,True
+Calibration,1,0,backMaximumVelocity,14.99999998273085,L0/s,True
+Calibration,1,0,backActivationExponent,1.0660489453474828,1,False
+Calibration,1,0,backTendonStrain,0.09999997066084775,1,True
+Calibration,1,0,backActivationTime,0.14899703855332713,s,False
+Calibration,1,0,frontCapacity,999.9022988390415,Nm,True
+Calibration,1,0,frontActivationExponent,1.5882636408166428,1,False
+Calibration,1,0,frontArmToLength,0.61580028356644,1,False
+Calibration,1,0,frontReferenceLength,1.0283536321835578,1,False
+Calibration,1,0,loadLever,0.7947361800943792,m,False
+Calibration,1,0,loadOffset,0.4644008567236648,rad,False
+Calibration,1,0,frontInputGain,0.9352939399712406,1,False
+Calibration,1,0,backCoactivationGain,1.4999737449655235,1,True
+Calibration,1,0,risingGain,7.789670976797906,1,False
+Calibration,1,0,fallingGain,0.7586087216720903,1,False
+Calibration,1,0,bodyMass,29.197741601939697,kg,False
+Calibration,1,0,bodyLever,0.3225927060155274,m,False
+Calibration,1,0,backMomentArm,0.02055240907815156,m,False
+Calibration,1,0,frontMomentArm,0.0754167898735564,m,False
+Calibration,1,0,backReferenceMTLength,0.2485399551305005,m,False
+Calibration,1,0,frontReferenceMTLength,0.40666562432020736,m,False
+Calibration,1,0,frontMaximumVelocity,7.693877632122374,L0/s,False
+Calibration,1,0,frontTendonStrain,0.04522034993014076,1,False
+Calibration,1,0,frontActivationTime,0.09255111295639717,s,False
+Calibration,1,0,referencePennation,0.25286446472336144,rad,False
+Calibration,1,0,softLimitStiffness,461.98448335728506,Nm/rad,False
+Calibration,1,0,softLimitMaximumTorque,148.94525511243975,Nm,False
+Calibration,1,0,softLimitLower,0.09996951219511516,rad,False
+Calibration,1,0,softLimitUpper,1.5773166324170396,rad,False
+Calibration,2,0,backCapacity,1082.6038093737552,Nm,False
+Calibration,2,0,backArmToLength,0.25000000000041417,1,True
+Calibration,2,0,backReferenceLength,1.0598045663936788,1,False
+Calibration,2,0,jointDamping,34.55107442211795,Nm s/rad,False
+Calibration,2,0,backMaximumVelocity,4.989546089966662,L0/s,False
+Calibration,2,0,backActivationExponent,0.993373649911438,1,False
+Calibration,2,0,backTendonStrain,0.0460098180054896,1,False
+Calibration,2,0,backActivationTime,0.14999999999999997,s,True
+Calibration,2,0,frontCapacity,999.9999999999999,Nm,True
+Calibration,2,0,frontActivationExponent,1.4643924222551732,1,False
+Calibration,2,0,frontArmToLength,0.6708075776498192,1,False
+Calibration,2,0,frontReferenceLength,1.053236500458072,1,False
+Calibration,2,0,loadLever,0.7947361800943792,m,False
+Calibration,2,0,loadOffset,0.4644008567236648,rad,False
+Calibration,2,0,frontInputGain,0.05000148580428698,1,True
+Calibration,2,0,backCoactivationGain,1.4426268819633687,1,False
+Calibration,2,0,risingGain,5.626115380557055,1,False
+Calibration,2,0,fallingGain,1.1022707527933182,1,False
+Calibration,2,0,bodyMass,29.197741601939697,kg,False
+Calibration,2,0,bodyLever,0.3225927060155274,m,False
+Calibration,2,0,backMomentArm,0.035409833019961395,m,False
+Calibration,2,0,frontMomentArm,0.07999999999999999,m,True
+Calibration,2,0,backReferenceMTLength,0.22000012316313275,m,True
+Calibration,2,0,frontReferenceMTLength,0.38181638113255667,m,False
+Calibration,2,0,frontMaximumVelocity,9.772873434941596,L0/s,False
+Calibration,2,0,frontTendonStrain,0.020000069965672346,1,True
+Calibration,2,0,frontActivationTime,0.0050128237812173725,s,True
+Calibration,2,0,referencePennation,0.20772009757475768,rad,False
+Calibration,2,0,softLimitStiffness,461.98448335728506,Nm/rad,False
+Calibration,2,0,softLimitMaximumTorque,148.94525511243975,Nm,False
+Calibration,2,0,softLimitLower,0.09996951219511516,rad,False
+Calibration,2,0,softLimitUpper,1.5773166324170396,rad,False
+Whole-speed holdout,1,35,backCapacity,623.3906758880984,Nm,False
+Whole-speed holdout,1,35,backArmToLength,0.252643389339765,1,False
+Whole-speed holdout,1,35,backReferenceLength,1.114818630068164,1,False
+Whole-speed holdout,1,35,jointDamping,31.09196095734225,Nm s/rad,False
+Whole-speed holdout,1,35,backMaximumVelocity,10.293025024100718,L0/s,False
+Whole-speed holdout,1,35,backActivationExponent,1.1351333931100764,1,False
+Whole-speed holdout,1,35,backTendonStrain,0.07774228576880789,1,False
+Whole-speed holdout,1,35,backActivationTime,0.14833896498257274,s,False
+Whole-speed holdout,1,35,frontCapacity,781.7008159037158,Nm,False
+Whole-speed holdout,1,35,frontActivationExponent,1.5084640841822798,1,False
+Whole-speed holdout,1,35,frontArmToLength,0.8846675893969052,1,False
+Whole-speed holdout,1,35,frontReferenceLength,0.8629380646230944,1,False
+Whole-speed holdout,1,35,loadLever,0.7626608808797353,m,False
+Whole-speed holdout,1,35,loadOffset,0.5638404482806525,rad,False
+Whole-speed holdout,1,35,frontInputGain,3.3045835408288853,1,False
+Whole-speed holdout,1,35,backCoactivationGain,1.2112475632515076,1,False
+Whole-speed holdout,1,35,risingGain,4.685086229163613,1,False
+Whole-speed holdout,1,35,fallingGain,0.11986813850297927,1,False
+Whole-speed holdout,1,35,bodyMass,28.568138130232082,kg,False
+Whole-speed holdout,1,35,bodyLever,0.34997735986849354,m,True
+Whole-speed holdout,1,35,backMomentArm,0.03256642124066656,m,False
+Whole-speed holdout,1,35,frontMomentArm,0.07573478757214595,m,False
+Whole-speed holdout,1,35,backReferenceMTLength,0.22304654954639985,m,False
+Whole-speed holdout,1,35,frontReferenceMTLength,0.4060512504931612,m,False
+Whole-speed holdout,1,35,frontMaximumVelocity,14.999998727504954,L0/s,True
+Whole-speed holdout,1,35,frontTendonStrain,0.03962200858260184,1,False
+Whole-speed holdout,1,35,frontActivationTime,0.00507087553943886,s,True
+Whole-speed holdout,1,35,referencePennation,0.31536150797442997,rad,False
+Whole-speed holdout,1,35,softLimitStiffness,589.4831775703503,Nm/rad,False
+Whole-speed holdout,1,35,softLimitMaximumTorque,149.99798550597768,Nm,False
+Whole-speed holdout,1,35,softLimitLower,0.054689680579013134,rad,False
+Whole-speed holdout,1,35,softLimitUpper,1.8,rad,False
+Whole-speed holdout,1,45,backCapacity,1037.2177417358967,Nm,False
+Whole-speed holdout,1,45,backArmToLength,0.2500021134025621,1,True
+Whole-speed holdout,1,45,backReferenceLength,1.1618349836329005,1,False
+Whole-speed holdout,1,45,jointDamping,28.403132499884578,Nm s/rad,False
+Whole-speed holdout,1,45,backMaximumVelocity,14.99999971721243,L0/s,True
+Whole-speed holdout,1,45,backActivationExponent,1.0780814476418563,1,False
+Whole-speed holdout,1,45,backTendonStrain,0.09999999830486352,1,True
+Whole-speed holdout,1,45,backActivationTime,0.13866678873341765,s,False
+Whole-speed holdout,1,45,frontCapacity,998.0386381949687,Nm,False
+Whole-speed holdout,1,45,frontActivationExponent,1.598837888847764,1,True
+Whole-speed holdout,1,45,frontArmToLength,0.540977575043746,1,False
+Whole-speed holdout,1,45,frontReferenceLength,0.8667357684979856,1,False
+Whole-speed holdout,1,45,loadLever,0.7602753446031696,m,False
+Whole-speed holdout,1,45,loadOffset,0.6235123830901478,rad,False
+Whole-speed holdout,1,45,frontInputGain,1.785847806717438,1,False
+Whole-speed holdout,1,45,backCoactivationGain,1.4985251876559913,1,True
+Whole-speed holdout,1,45,risingGain,14.999131945733561,1,True
+Whole-speed holdout,1,45,fallingGain,0.7313863940189119,1,False
+Whole-speed holdout,1,45,bodyMass,32.582363158390336,kg,False
+Whole-speed holdout,1,45,bodyLever,0.2858623172658648,m,False
+Whole-speed holdout,1,45,backMomentArm,0.0203483425115804,m,False
+Whole-speed holdout,1,45,frontMomentArm,0.07874078451632058,m,False
+Whole-speed holdout,1,45,backReferenceMTLength,0.2533734162144629,m,False
+Whole-speed holdout,1,45,frontReferenceMTLength,0.39871092500532085,m,False
+Whole-speed holdout,1,45,frontMaximumVelocity,6.317150340408873,L0/s,False
+Whole-speed holdout,1,45,frontTendonStrain,0.020103517574473293,1,False
+Whole-speed holdout,1,45,frontActivationTime,0.10095917013450818,s,False
+Whole-speed holdout,1,45,referencePennation,0.26417149473177937,rad,False
+Whole-speed holdout,1,45,softLimitStiffness,1197.5714988704979,Nm/rad,False
+Whole-speed holdout,1,45,softLimitMaximumTorque,40.000000056527895,Nm,True
+Whole-speed holdout,1,45,softLimitLower,0.09995684952098702,rad,False
+Whole-speed holdout,1,45,softLimitUpper,1.500000002473053,rad,True
+Whole-speed holdout,1,55,backCapacity,1475.2133151899607,Nm,False
+Whole-speed holdout,1,55,backArmToLength,0.45136639266645623,1,False
+Whole-speed holdout,1,55,backReferenceLength,1.0002477594214614,1,True
+Whole-speed holdout,1,55,jointDamping,34.99999975951567,Nm s/rad,True
+Whole-speed holdout,1,55,backMaximumVelocity,14.99999999155353,L0/s,True
+Whole-speed holdout,1,55,backActivationExponent,1.1317693269377491,1,False
+Whole-speed holdout,1,55,backTendonStrain,0.09999987678029258,1,True
+Whole-speed holdout,1,55,backActivationTime,0.1499997213047562,s,True
+Whole-speed holdout,1,55,frontCapacity,999.995474042515,Nm,True
+Whole-speed holdout,1,55,frontActivationExponent,1.3972465902420617,1,False
+Whole-speed holdout,1,55,frontArmToLength,0.6204276291998432,1,False
+Whole-speed holdout,1,55,frontReferenceLength,1.1528796505158343,1,False
+Whole-speed holdout,1,55,loadLever,0.7427493004240726,m,False
+Whole-speed holdout,1,55,loadOffset,0.4653433344416247,rad,False
+Whole-speed holdout,1,55,frontInputGain,0.054813023203910335,1,True
+Whole-speed holdout,1,55,backCoactivationGain,1.493083817510667,1,False
+Whole-speed holdout,1,55,risingGain,5.8625782079501345,1,False
+Whole-speed holdout,1,55,fallingGain,0.3115615133238205,1,False
+Whole-speed holdout,1,55,bodyMass,31.766050568916757,kg,False
+Whole-speed holdout,1,55,bodyLever,0.28382394064900646,m,False
+Whole-speed holdout,1,55,backMomentArm,0.020057738113827633,m,False
+Whole-speed holdout,1,55,frontMomentArm,0.0799999990481772,m,True
+Whole-speed holdout,1,55,backReferenceMTLength,0.2649106696142496,m,False
+Whole-speed holdout,1,55,frontReferenceMTLength,0.3793189691395658,m,False
+Whole-speed holdout,1,55,frontMaximumVelocity,8.645910440589326,L0/s,False
+Whole-speed holdout,1,55,frontTendonStrain,0.02000005085650744,1,True
+Whole-speed holdout,1,55,frontActivationTime,0.10737795978211123,s,False
+Whole-speed holdout,1,55,referencePennation,0.20956915079747002,rad,False
+Whole-speed holdout,1,55,softLimitStiffness,600.0,Nm/rad,False
+Whole-speed holdout,1,55,softLimitMaximumTorque,150.0,Nm,False
+Whole-speed holdout,1,55,softLimitLower,0.09996951219511516,rad,False
+Whole-speed holdout,1,55,softLimitUpper,1.8,rad,False
+Whole-speed holdout,2,35,backCapacity,797.574297754793,Nm,False
+Whole-speed holdout,2,35,backArmToLength,0.4343822734013177,1,False
+Whole-speed holdout,2,35,backReferenceLength,1.0740183284130163,1,False
+Whole-speed holdout,2,35,jointDamping,29.16559249837472,Nm s/rad,False
+Whole-speed holdout,2,35,backMaximumVelocity,14.999998700443664,L0/s,True
+Whole-speed holdout,2,35,backActivationExponent,0.7892215870992612,1,False
+Whole-speed holdout,2,35,backTendonStrain,0.09978380229686157,1,False
+Whole-speed holdout,2,35,backActivationTime,0.14999998550799473,s,True
+Whole-speed holdout,2,35,frontCapacity,999.8329208086149,Nm,True
+Whole-speed holdout,2,35,frontActivationExponent,1.1407558769724955,1,False
+Whole-speed holdout,2,35,frontArmToLength,0.3707075968085899,1,False
+Whole-speed holdout,2,35,frontReferenceLength,0.8322882109192472,1,False
+Whole-speed holdout,2,35,loadLever,0.7626608808797353,m,False
+Whole-speed holdout,2,35,loadOffset,0.5638404482806525,rad,False
+Whole-speed holdout,2,35,frontInputGain,0.05033088190943205,1,True
+Whole-speed holdout,2,35,backCoactivationGain,1.49782649971744,1,False
+Whole-speed holdout,2,35,risingGain,0.002893769390927306,1,True
+Whole-speed holdout,2,35,fallingGain,0.8699624669321429,1,False
+Whole-speed holdout,2,35,bodyMass,28.568138130232082,kg,False
+Whole-speed holdout,2,35,bodyLever,0.34997735986849354,m,True
+Whole-speed holdout,2,35,backMomentArm,0.031013345669895005,m,False
+Whole-speed holdout,2,35,frontMomentArm,0.07687892466944812,m,False
+Whole-speed holdout,2,35,backReferenceMTLength,0.2230359535192292,m,False
+Whole-speed holdout,2,35,frontReferenceMTLength,0.40372543018815843,m,False
+Whole-speed holdout,2,35,frontMaximumVelocity,14.999998700846945,L0/s,True
+Whole-speed holdout,2,35,frontTendonStrain,0.020182608904741446,1,False
+Whole-speed holdout,2,35,frontActivationTime,0.005001128407162274,s,True
+Whole-speed holdout,2,35,referencePennation,0.256802795027094,rad,False
+Whole-speed holdout,2,35,softLimitStiffness,589.4831775703503,Nm/rad,False
+Whole-speed holdout,2,35,softLimitMaximumTorque,149.99798550597768,Nm,False
+Whole-speed holdout,2,35,softLimitLower,0.054689680579013134,rad,False
+Whole-speed holdout,2,35,softLimitUpper,1.8,rad,False
+Whole-speed holdout,2,45,backCapacity,1107.2918637943176,Nm,False
+Whole-speed holdout,2,45,backArmToLength,0.2500022137666609,1,True
+Whole-speed holdout,2,45,backReferenceLength,1.1011497378627613,1,False
+Whole-speed holdout,2,45,jointDamping,26.244676074976685,Nm s/rad,False
+Whole-speed holdout,2,45,backMaximumVelocity,5.453262823437592,L0/s,False
+Whole-speed holdout,2,45,backActivationExponent,1.149245917662912,1,False
+Whole-speed holdout,2,45,backTendonStrain,0.03320501702801448,1,False
+Whole-speed holdout,2,45,backActivationTime,0.14999998570239564,s,True
+Whole-speed holdout,2,45,frontCapacity,999.8147412676216,Nm,True
+Whole-speed holdout,2,45,frontActivationExponent,1.5997288147462876,1,True
+Whole-speed holdout,2,45,frontArmToLength,0.6195725210189651,1,False
+Whole-speed holdout,2,45,frontReferenceLength,1.026818537920624,1,False
+Whole-speed holdout,2,45,loadLever,0.7602753446031696,m,False
+Whole-speed holdout,2,45,loadOffset,0.6235123830901478,rad,False
+Whole-speed holdout,2,45,frontInputGain,0.050014457535996946,1,True
+Whole-speed holdout,2,45,backCoactivationGain,1.2511668352037495,1,False
+Whole-speed holdout,2,45,risingGain,4.452983723989267,1,False
+Whole-speed holdout,2,45,fallingGain,1.2764409012891706,1,False
+Whole-speed holdout,2,45,bodyMass,32.582363158390336,kg,False
+Whole-speed holdout,2,45,bodyLever,0.2858623172658648,m,False
+Whole-speed holdout,2,45,backMomentArm,0.03333996284210838,m,False
+Whole-speed holdout,2,45,frontMomentArm,0.07999999557286085,m,True
+Whole-speed holdout,2,45,backReferenceMTLength,0.22159878404263336,m,False
+Whole-speed holdout,2,45,frontReferenceMTLength,0.37888217152353804,m,False
+Whole-speed holdout,2,45,frontMaximumVelocity,13.735056525078804,L0/s,False
+Whole-speed holdout,2,45,frontTendonStrain,0.020000013996943167,1,True
+Whole-speed holdout,2,45,frontActivationTime,0.0050139470302235905,s,True
+Whole-speed holdout,2,45,referencePennation,0.23687662035368717,rad,False
+Whole-speed holdout,2,45,softLimitStiffness,1197.5714988704979,Nm/rad,False
+Whole-speed holdout,2,45,softLimitMaximumTorque,40.000000056527895,Nm,True
+Whole-speed holdout,2,45,softLimitLower,0.09995684952098702,rad,False
+Whole-speed holdout,2,45,softLimitUpper,1.500000002473053,rad,True
+Whole-speed holdout,2,55,backCapacity,793.8106255131233,Nm,False
+Whole-speed holdout,2,55,backArmToLength,0.5153125030864403,1,False
+Whole-speed holdout,2,55,backReferenceLength,1.0000351597909385,1,True
+Whole-speed holdout,2,55,jointDamping,34.99881622976531,Nm s/rad,True
+Whole-speed holdout,2,55,backMaximumVelocity,14.999050133019507,L0/s,True
+Whole-speed holdout,2,55,backActivationExponent,0.7663983979831446,1,False
+Whole-speed holdout,2,55,backTendonStrain,0.0999887705579607,1,True
+Whole-speed holdout,2,55,backActivationTime,0.1499999999993357,s,True
+Whole-speed holdout,2,55,frontCapacity,999.9999999999802,Nm,True
+Whole-speed holdout,2,55,frontActivationExponent,0.8360770543984333,1,False
+Whole-speed holdout,2,55,frontArmToLength,0.5837030931918405,1,False
+Whole-speed holdout,2,55,frontReferenceLength,0.9820628400040176,1,False
+Whole-speed holdout,2,55,loadLever,0.7427493004240726,m,False
+Whole-speed holdout,2,55,loadOffset,0.4653433344416247,rad,False
+Whole-speed holdout,2,55,frontInputGain,0.05001262329097012,1,True
+Whole-speed holdout,2,55,backCoactivationGain,0.5503526084354051,1,False
+Whole-speed holdout,2,55,risingGain,8.460344624572812,1,False
+Whole-speed holdout,2,55,fallingGain,0.06408159938467795,1,False
+Whole-speed holdout,2,55,bodyMass,31.766050568916757,kg,False
+Whole-speed holdout,2,55,bodyLever,0.28382394064900646,m,False
+Whole-speed holdout,2,55,backMomentArm,0.022270314305521857,m,False
+Whole-speed holdout,2,55,frontMomentArm,0.07999999999999999,m,True
+Whole-speed holdout,2,55,backReferenceMTLength,0.24305754144625108,m,False
+Whole-speed holdout,2,55,frontReferenceMTLength,0.3649155742298555,m,False
+Whole-speed holdout,2,55,frontMaximumVelocity,7.714135942023841,L0/s,False
+Whole-speed holdout,2,55,frontTendonStrain,0.020001559519316855,1,True
+Whole-speed holdout,2,55,frontActivationTime,0.10749362393389979,s,False
+Whole-speed holdout,2,55,referencePennation,0.16566006633193442,rad,False
+Whole-speed holdout,2,55,softLimitStiffness,600.0,Nm/rad,False
+Whole-speed holdout,2,55,softLimitMaximumTorque,150.0,Nm,False
+Whole-speed holdout,2,55,softLimitLower,0.09996951219511516,rad,False
+Whole-speed holdout,2,55,softLimitUpper,1.8,rad,False

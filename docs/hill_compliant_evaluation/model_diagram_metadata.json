@@ -1,0 +1,18 @@
+{
+  "model": "one-DOF equivalent trunk; two opposing compliant Hill units",
+  "musclePaths": "illustrative; solver uses constant moment arms",
+  "externalAssistance": "no independent BSE assistance input in this demo",
+  "thetaIllustrationRad": 0.95,
+  "sharedAllTrialGeometry": {
+    "M_kg": 29.197741601939697,
+    "L1_m": 0.3225927060155274,
+    "L2_m": 0.7947361800943792,
+    "phi_rad": 0.4644008567236648
+  },
+  "softLimits": {
+    "k_Nm_per_rad": 461.98448335728506,
+    "cap_Nm": 148.94525511243975,
+    "lower_rad": 0.09996951219511516,
+    "upper_rad": 1.5773166324170396
+  }
+}

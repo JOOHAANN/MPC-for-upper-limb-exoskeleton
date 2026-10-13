@@ -1,0 +1,96 @@
+{
+  "id": "training_bse__from_theta_to_torque",
+  "original_folder": "Train the lumped muscle BSE model/From theta to Torque",
+  "entrypoints": [
+    "Lumped_model_check_with_coeffs",
+    "Lumped_model_check_with_coeffs_ICNR",
+    "Lumped_model_check_with_coeffs_thesis",
+    "Lumped_model_check_with_coeffs_thesis_test",
+    "Lumped_model_training_from5to15",
+    "Lumped_System_Dynamics",
+    "parameters",
+    "Sewing_model_with_coeffs"
+  ],
+  "files": [
+    {
+      "source": "data/processed/training_bse/activation.mat",
+      "target": "activation.mat"
+    },
+    {
+      "source": "src/shared/ActivationDynamics.m",
+      "target": "ActivationDynamics.m"
+    },
+    {
+      "source": "src/variants/training_qualisys__from_theta_to_torque/Cost_function_from5to15.m",
+      "target": "Cost_function_from5to15.m"
+    },
+    {
+      "source": "models/training_bse/dynamic_function.slx",
+      "target": "dynamic_function.slx"
+    },
+    {
+      "source": "src/variants/training_qualisys__from_theta_to_torque/Dynamic_kine_reference.m",
+      "target": "Dynamic_kine_reference.m"
+    },
+    {
+      "source": "src/variants/training_qualisys__from_theta_to_torque/Lumped_model_check_with_coeffs.m",
+      "target": "Lumped_model_check_with_coeffs.m"
+    },
+    {
+      "source": "src/shared/Lumped_model_check_with_coeffs_ICNR.m",
+      "target": "Lumped_model_check_with_coeffs_ICNR.m"
+    },
+    {
+      "source": "src/variants/training_qualisys__from_theta_to_torque/Lumped_model_check_with_coeffs_thesis.m",
+      "target": "Lumped_model_check_with_coeffs_thesis.m"
+    },
+    {
+      "source": "src/shared/Lumped_model_check_with_coeffs_thesis_test.m",
+      "target": "Lumped_model_check_with_coeffs_thesis_test.m"
+    },
+    {
+      "source": "src/variants/training_qualisys__from_theta_to_torque/Lumped_model_training_from5to15.m",
+      "target": "Lumped_model_training_from5to15.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/Lumped_System_Dynamics.m",
+      "target": "Lumped_System_Dynamics.m"
+    },
+    {
+      "source": "src/shared/parameters.m",
+      "target": "parameters.m"
+    },
+    {
+      "source": "src/shared/Sewing_model_with_coeffs.m",
+      "target": "Sewing_model_with_coeffs.m"
+    },
+    {
+      "source": "src/variants/training_qualisys/simplify_pulley_model.m",
+      "target": "simplify_pulley_model.m"
+    },
+    {
+      "source": "data/processed/training_bse__from_theta_to_torque/Theta_Tac0.mat",
+      "target": "Theta_Tac0.mat"
+    },
+    {
+      "source": "src/variants/training_qualisys__from_theta_to_torque/Torque_function_constant.m",
+      "target": "Torque_function_constant.m"
+    },
+    {
+      "source": "src/shared/Torque_function_constant_from5to15.m",
+      "target": "Torque_function_constant_from5to15.m"
+    },
+    {
+      "source": "data/processed/training_bse__from_theta_to_torque/Torque_inverse.mat",
+      "target": "Torque_inverse.mat"
+    },
+    {
+      "source": "data/processed/map_predictor/Torque_real_1.mat",
+      "target": "Torque_real_1.mat"
+    },
+    {
+      "source": "data/processed/training_bse__from_theta_to_torque/Torque_Tac0.mat",
+      "target": "Torque_Tac0.mat"
+    }
+  ]
+}
