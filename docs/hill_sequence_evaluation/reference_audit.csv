@@ -1,0 +1,4 @@
+group,originalDataset,samples,durationSeconds,standingAngleRad,maximumReferenceAngleDifferenceRad,maximumReferenceTorqueDifferenceNm,originalFilledWaitingTorqueNm,filledReferenceSamples,originalMatSHA256
+1,5_35_10_55_15_45,4496,44.95,1.4999999999999998,0.0,0.0,20.0,2919,1f6ca8fdd7b9eb45781ad9c29ab0bfa4894833ca3f21fc5c418ee9ffa43417b8
+2,5_45_10_35_15_55,4494,44.93,1.4999999999999998,0.0,0.0,20.0,2867,deb38b1d9fbbd165849d4c55b3789f0cf83812e4449788384570bad4f48db16e
+3,5_55_10_45_15_35,4485,44.84,1.4999999999999998,0.0,0.0,20.0,2882,ec8c5005da2c04fd322c863423c1145b6f68fca5d4d93d9c800d682f50e042ac

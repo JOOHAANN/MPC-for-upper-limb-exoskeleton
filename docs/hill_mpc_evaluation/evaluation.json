@@ -1,0 +1,193 @@
+{
+  "summary": [
+    {
+      "group": 1,
+      "source": "Experimental activation",
+      "minAngleRad": 0.5008765461951572,
+      "maxAngleRad": 1.5325522689698647,
+      "assistancePeakNm": 80.0,
+      "softPeakNm": 0.0,
+      "abdomenPeakNm": 16.754931116092717,
+      "thetaRMSEDegrees": 11.060224308235256,
+      "zeroAssistanceAngleParityRad": 9.669132161604921e-11,
+      "zeroAssistanceTorqueParityNm": 3.466125164663936e-08,
+      "rejectedQPResults": 0,
+      "momentumResidualNm": 9.995034330016588e-08
+    },
+    {
+      "group": 1,
+      "source": "MAP activation",
+      "minAngleRad": 0.4705935991486648,
+      "maxAngleRad": 1.6011511605187878,
+      "assistancePeakNm": 80.0,
+      "softPeakNm": 0.0,
+      "abdomenPeakNm": 16.91415737453046,
+      "thetaRMSEDegrees": 12.056486613804042,
+      "zeroAssistanceAngleParityRad": 1.0192291455268787e-11,
+      "zeroAssistanceTorqueParityNm": 2.8381766270513253e-08,
+      "rejectedQPResults": 0,
+      "momentumResidualNm": 9.999857770921044e-08
+    },
+    {
+      "group": 2,
+      "source": "Experimental activation",
+      "minAngleRad": 0.5046256033030123,
+      "maxAngleRad": 1.5538331133421246,
+      "assistancePeakNm": 80.0,
+      "softPeakNm": 0.0,
+      "abdomenPeakNm": 17.75756148489637,
+      "thetaRMSEDegrees": 10.976264857799206,
+      "zeroAssistanceAngleParityRad": 2.18005613561445e-11,
+      "zeroAssistanceTorqueParityNm": 1.9361500847026036e-08,
+      "rejectedQPResults": 0,
+      "momentumResidualNm": 9.998534639299664e-08
+    },
+    {
+      "group": 2,
+      "source": "MAP activation",
+      "minAngleRad": 0.47897784651112785,
+      "maxAngleRad": 1.5789567485698162,
+      "assistancePeakNm": 80.0,
+      "softPeakNm": 0.0,
+      "abdomenPeakNm": 15.993230707000603,
+      "thetaRMSEDegrees": 10.788855378154224,
+      "zeroAssistanceAngleParityRad": 2.8133939622421167e-11,
+      "zeroAssistanceTorqueParityNm": 3.46220208058412e-08,
+      "rejectedQPResults": 0,
+      "momentumResidualNm": 9.995773098125937e-08
+    },
+    {
+      "group": 3,
+      "source": "Experimental activation",
+      "minAngleRad": 0.5201526649149645,
+      "maxAngleRad": 1.5972241701156091,
+      "assistancePeakNm": 80.0,
+      "softPeakNm": 0.0,
+      "abdomenPeakNm": 37.210947785224825,
+      "thetaRMSEDegrees": 13.681462333694268,
+      "zeroAssistanceAngleParityRad": 1.7757795234274454e-11,
+      "zeroAssistanceTorqueParityNm": 2.005094934531826e-08,
+      "rejectedQPResults": 0,
+      "momentumResidualNm": 9.999618570932613e-08
+    },
+    {
+      "group": 3,
+      "source": "MAP activation",
+      "minAngleRad": 0.4720341144545516,
+      "maxAngleRad": 1.60292352489287,
+      "assistancePeakNm": 80.0,
+      "softPeakNm": 0.0,
+      "abdomenPeakNm": 17.41267023618943,
+      "thetaRMSEDegrees": 12.353036178534866,
+      "zeroAssistanceAngleParityRad": 4.82796247425199e-10,
+      "zeroAssistanceTorqueParityNm": 1.1503148522606921e-07,
+      "rejectedQPResults": 0,
+      "momentumResidualNm": 9.999677703292251e-08
+    }
+  ],
+  "options": {
+    "points": 16,
+    "blocks": 4,
+    "predictionDt": 0.025,
+    "predictionSubsteps": 10,
+    "controlPeriod": 0.02,
+    "actualSubsteps": 10,
+    "rateNmPerSec": 200.0,
+    "capNm": 80.0,
+    "angleWeight": 10.0,
+    "backTorqueWeight": 128.0,
+    "backTorqueMarginNm": 35.0,
+    "inputForecast": "hold",
+    "inputForecastTime": 0.1,
+    "inputSlopeWindow": 0.05,
+    "inputSlopeLimit": 3.0,
+    "velocityWeight": 100.0
+  },
+  "fixedParameterAudit": [
+    {
+      "source": "Experimental activation",
+      "group": 1,
+      "parameterSHA256": "bff12629168e1bf3ad98818cd470a05eb6b00ee856e492d887b1b2d66320406e"
+    },
+    {
+      "source": "MAP activation",
+      "group": 1,
+      "parameterSHA256": "a7fd7e277e69955f799204f5baccf363452c187df3aebd3155473fb6711ea100"
+    },
+    {
+      "source": "Experimental activation",
+      "group": 2,
+      "parameterSHA256": "bff12629168e1bf3ad98818cd470a05eb6b00ee856e492d887b1b2d66320406e"
+    },
+    {
+      "source": "MAP activation",
+      "group": 2,
+      "parameterSHA256": "a7fd7e277e69955f799204f5baccf363452c187df3aebd3155473fb6711ea100"
+    },
+    {
+      "source": "Experimental activation",
+      "group": 3,
+      "parameterSHA256": "bff12629168e1bf3ad98818cd470a05eb6b00ee856e492d887b1b2d66320406e"
+    },
+    {
+      "source": "MAP activation",
+      "group": 3,
+      "parameterSHA256": "a7fd7e277e69955f799204f5baccf363452c187df3aebd3155473fb6711ea100"
+    }
+  ],
+  "modelSHA256": "3712655d9780c34257b2c136e3b0f59d9ea18215f032c49dee5024dbdc423834",
+  "policy": "Same selected 42-parameter neural/Hill model; causal MPC; experimental reference is evaluation-only",
+  "assistanceAdaptation": "Applied exoskeleton torque is subtracted from the human muscle torque request; no assistance-response experiment was fitted",
+  "wallSeconds": 102.24334689999523,
+  "checks": {
+    "all18Wshapes": true,
+    "referencesUnchanged": true,
+    "allCommandsWithin80Nm": true,
+    "allCommandsRateLimited": true,
+    "noExternalBalanceTorque": true,
+    "numericalChecks": [
+      {
+        "group": 1,
+        "source": "Experimental activation",
+        "halfStepAngleDifferenceRad": 0.003545039223212809,
+        "halfStepTorqueDifferenceNm": 2.6326560420357836,
+        "extra30SecondsStandingErrorRad": 5.353339993519057e-10
+      },
+      {
+        "group": 1,
+        "source": "MAP activation",
+        "halfStepAngleDifferenceRad": 0.002370836948039967,
+        "halfStepTorqueDifferenceNm": 0.9953514799295959,
+        "extra30SecondsStandingErrorRad": 8.163729692256538e-10
+      },
+      {
+        "group": 2,
+        "source": "Experimental activation",
+        "halfStepAngleDifferenceRad": 0.00364081230871216,
+        "halfStepTorqueDifferenceNm": 2.1623644800034754,
+        "extra30SecondsStandingErrorRad": 5.565587990474796e-10
+      },
+      {
+        "group": 2,
+        "source": "MAP activation",
+        "halfStepAngleDifferenceRad": 0.0022494453875596676,
+        "halfStepTorqueDifferenceNm": 1.0410566337156268,
+        "extra30SecondsStandingErrorRad": 5.148244053287954e-10
+      },
+      {
+        "group": 3,
+        "source": "Experimental activation",
+        "halfStepAngleDifferenceRad": 0.002645997598418104,
+        "halfStepTorqueDifferenceNm": 1.6543605680178217,
+        "extra30SecondsStandingErrorRad": 5.785243395450834e-10
+      },
+      {
+        "group": 3,
+        "source": "MAP activation",
+        "halfStepAngleDifferenceRad": 0.0025178948249449107,
+        "halfStepTorqueDifferenceNm": 0.8847620745301548,
+        "extra30SecondsStandingErrorRad": 6.399463181594456e-10
+      }
+    ]
+  }
+}

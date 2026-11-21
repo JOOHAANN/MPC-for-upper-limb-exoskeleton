@@ -9,7 +9,11 @@ function inputs = hill_pair_inputs(trial, source, generator, parameters)
         slow = memory(a, .35);
         m = double(trial.m) / 15;
         n = double(trial.loadKg) / 15;
-        X = [a, a.^2, fast, slow, a - slow, m, ones(size(a)) * n, a * n, a .* m, (a - fast) * n];
+        if isscalar(n)
+            n = ones(size(a)) * n;
+        end
+        assert(iscolumn(n) && numel(n) == numel(a), 'Nominal load must be scalar or a per-sample column.');
+        X = [a, a.^2, fast, slow, a - slow, m, n, a .* n, a .* m, (a - fast) .* n];
         z = [ones(size(a)), (X - generator.mu(:)') ./ generator.scale(:)'] * generator.beta(:);
         front = 1 ./ (1 + exp(-max(-30, min(30, z))));
     end

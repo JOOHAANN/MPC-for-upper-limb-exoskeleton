@@ -1,0 +1,104 @@
+{
+  "auditMatSHA256": "ab381ce4ac39f76128f94ff2361f17822f8620a7552f5b1cce17496db2695361",
+  "sequenceMatSHA256": "9653ce99d84cb57445253f8e5e2ddf5899564cb9e039857d28846f044f810a04",
+  "modelsMatSHA256": "9eff50f533c93a4b96d1dbaff641667b1eba7ebcbe192d004afeebe58be60233",
+  "physiologicalStatus": "Abdominal recruitment is not validated; large inferred cocontraction is unsupported by independent measurements.",
+  "activationPolicy": "Project activation and Hill states are not established %MVC EMG.",
+  "recruitmentPercentPolicy": "Fraction of pre-saturation mapping S from back/history, not a fraction of measured abdominal force or EMG.",
+  "counterfactualPolicy": "Three input gains scaled with mechanics fixed; no parameter refit and no conclusion of physiological necessity.",
+  "metricPolicy": "Movement frames only; means are sample-weighted, not a mean of per-condition means.",
+  "files": [
+    {
+      "file": "component_diagnostics.csv",
+      "sha256": "d517fc13f66370ca9ad1e32a6871b9a6332a1a0d7ff6f3d8c9a10c74156d5667"
+    },
+    {
+      "file": "counterfactual_metrics.csv",
+      "sha256": "66b11e2db0ffde1795ef9245ace3119e02d26b5b65f3baca810e4b3477605ce7"
+    },
+    {
+      "file": "mapping_ablation_group1.pdf",
+      "sha256": "a6da10410b2d10bb361f390081117bfe55c6fcece7e0f39af00f9d78c0710ef8"
+    },
+    {
+      "file": "mapping_ablation_group1.png",
+      "sha256": "3c0e4f0553f6844572b3fe27ab59541cc5f537c531ade73b5b91e414af37c842"
+    },
+    {
+      "file": "mapping_ablation_group2.pdf",
+      "sha256": "f88883b1b6214dcf5ea613134ea02e9be267da4ff598a900c9b195c0f4fab997"
+    },
+    {
+      "file": "mapping_ablation_group2.png",
+      "sha256": "3e0dc776e952dcd8fdeb972af4913d833e750e7d093b4efabd5da57324f87ccb"
+    },
+    {
+      "file": "mapping_ablation_group3.pdf",
+      "sha256": "80f21788e5f46f0d68b4a731b203de574f398fbaf3976e1bee3d5049a18f8440"
+    },
+    {
+      "file": "mapping_ablation_group3.png",
+      "sha256": "610e82a8e435b3ec59844e0c9ce785169a00014ce41c82a6c3a3653a0f5ee6d7"
+    },
+    {
+      "file": "numerical_audit.csv",
+      "sha256": "21821cc8cd95ef525f93907f46ba1b7240ff813a26dd530c84edceca800576d2"
+    },
+    {
+      "file": "parameter_audit.csv",
+      "sha256": "ad18156d0a48d1f6c115200f16854713c98f227f15b9346b874b4e8b3b02fdc6"
+    },
+    {
+      "file": "recruitment_audit_group1.pdf",
+      "sha256": "cdb56a416f1414a390b268878fe1116ba3f96abced23465d3acce345eb42e7b8"
+    },
+    {
+      "file": "recruitment_audit_group1.png",
+      "sha256": "36a7560a2d5e6ed7f30bf0c042478db151e69f07a40f26cb38f0ecdba5d200f3"
+    },
+    {
+      "file": "recruitment_audit_group2.pdf",
+      "sha256": "e2ead71d076aa0af94a8d7b8a454e8e9971c0182c98a5444c482300570462029"
+    },
+    {
+      "file": "recruitment_audit_group2.png",
+      "sha256": "b8b231680c8275b582fbc856f78f8f06124d48dee6d626eb8e59b33c1a92ae58"
+    },
+    {
+      "file": "recruitment_audit_group3.pdf",
+      "sha256": "5875f8f0e02eb3aedbc1637d455a163c7389a63adf7a30432d5a11d3f2a8096f"
+    },
+    {
+      "file": "recruitment_audit_group3.png",
+      "sha256": "3052e8ec5fdf1637a915493251ebaeedc5907fcd977fcbc02259a1fe0e0de6f0"
+    },
+    {
+      "file": "recruitment_metrics.csv",
+      "sha256": "58086e4911035d253e57959b1e8cfdf5a77d11bfe71b19e4a64fa8794d00c14b"
+    },
+    {
+      "file": "recruitment_summary_group1.pdf",
+      "sha256": "31b74af380fd88aa3a5a5bdab9b4f19676bc55480bd28e2e9b19d3a96136196b"
+    },
+    {
+      "file": "recruitment_summary_group1.png",
+      "sha256": "06c2a2cb1dffdcf6cff2ca08c525da872dba0f2687162df88e58f8b5b5f749a7"
+    },
+    {
+      "file": "recruitment_summary_group2.pdf",
+      "sha256": "bdd124b13992697e896861a5f0bbe57ad640bf41b4b483c640d53ef7e738ac28"
+    },
+    {
+      "file": "recruitment_summary_group2.png",
+      "sha256": "71c70f9bc7cdf858f223f3691d39c257245460a8f985ee2ea0f78fb63538f067"
+    },
+    {
+      "file": "recruitment_summary_group3.pdf",
+      "sha256": "f52d4693f133064dbd32f40a9e819ee2e187fb60b0f819728d09ff0db851faa3"
+    },
+    {
+      "file": "recruitment_summary_group3.png",
+      "sha256": "62152bc4edda48d280663aa4452fb503308e84469b87c7ffe43c05f4f4414d74"
+    }
+  ]
+}

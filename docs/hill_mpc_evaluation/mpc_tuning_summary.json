@@ -1,0 +1,38 @@
+{
+  "previousResultSHA256": "c3bd29455c1d026c42db0e258ec013ecf002914a7f8398d54e36c5b39abf1ced",
+  "tunedResultSHA256": "c91bd3783b0329f304f3e42bae32c834ce7ca3a78a861f3643a20bf826c467a1",
+  "modelSHA256": "3712655d9780c34257b2c136e3b0f59d9ea18215f032c49dee5024dbdc423834",
+  "previousBackWeight": 2.0,
+  "tunedBackWeight": 16.0,
+  "metricDefinition": "Mean positive excess is mean(max(backTorque - loadThreshold, 0)) over all movement samples, including zero-excess samples; waiting is excluded.",
+  "summary": [
+    {
+      "source": "Experimental activation",
+      "previousMeanPositiveExcessNm": 3.492960004826234,
+      "tunedMeanPositiveExcessNm": 1.3849827984980578,
+      "meanPositiveExcessReductionPercent": 60.3493084208115,
+      "previousWorstPeakExcessNm": 61.679963327834855,
+      "tunedWorstPeakExcessNm": 42.106104569944705,
+      "previousMeanCaseThetaRMSEDegrees": 11.98837307886832,
+      "tunedMeanCaseThetaRMSEDegrees": 11.859025209559858,
+      "maximumAngleChangeRad": 0.055806484079983454,
+      "allNineWShapes": true,
+      "allNineMeanExcessReduced": true,
+      "allNinePeakExcessReduced": true
+    },
+    {
+      "source": "MAP activation",
+      "previousMeanPositiveExcessNm": 4.1500381457282245,
+      "tunedMeanPositiveExcessNm": 1.6256603692096407,
+      "meanPositiveExcessReductionPercent": 60.827821043452616,
+      "previousWorstPeakExcessNm": 49.423377909027636,
+      "tunedWorstPeakExcessNm": 36.15393582213889,
+      "previousMeanCaseThetaRMSEDegrees": 11.227109223801849,
+      "tunedMeanCaseThetaRMSEDegrees": 11.13566243830048,
+      "maximumAngleChangeRad": 0.06354271338254747,
+      "allNineWShapes": true,
+      "allNineMeanExcessReduced": true,
+      "allNinePeakExcessReduced": true
+    }
+  ]
+}

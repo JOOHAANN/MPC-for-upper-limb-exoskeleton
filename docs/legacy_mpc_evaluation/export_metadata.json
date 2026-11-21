@@ -1,0 +1,42 @@
+{
+  "policy": "Historical metrics and before_fix figure preserve the archived result; legacy_mpc_torque_theta now aliases the fixed Hill/MPC plot.",
+  "files": [
+    {
+      "file": "evaluation.json",
+      "sha256": "24431296dc975f6a489efa3fdba06dd9a57db55b7fc7301c432c79d553173bf7"
+    },
+    {
+      "file": "legacy_mpc_components.pdf",
+      "sha256": "d65cb9ec6b3c9153fe9f7928d0c2feb2fef767d15f759b5555f3e06bb06ede19"
+    },
+    {
+      "file": "legacy_mpc_components.png",
+      "sha256": "72e40f03e02eda40c302d53cc8512bf40693bc08998bff43481147c3b131dd13"
+    },
+    {
+      "file": "legacy_mpc_torque_theta.pdf",
+      "sha256": "308a0e97a8d19273abcb0f5a1b88a9b4b4e213806cc23915f66ddaf857a6ba03"
+    },
+    {
+      "file": "legacy_mpc_torque_theta.png",
+      "sha256": "9ccff8d3d7d5f037fb1c2a7d57582207aee4e98d496c94c860d532f2f6a7469f"
+    },
+    {
+      "file": "legacy_mpc_torque_theta_before_fix.pdf",
+      "sha256": "9b985046d049afabdcf630976e226e4c0cf196a166b64e483642f7f95587e853"
+    },
+    {
+      "file": "legacy_mpc_torque_theta_before_fix.png",
+      "sha256": "6dc5495073df77c67d8a9b3cf249c5b8ab1cfa79f609cba7df1670d591ebbbd7"
+    },
+    {
+      "file": "movement_metrics.csv",
+      "sha256": "6bd438f7ff536639f09bf51c6edc1c27407702f114da7312d6fdadc3234f775c"
+    },
+    {
+      "file": "summary.csv",
+      "sha256": "669fa824edd237011a5461baacaa7161dfd0598f9ed4f8d77ac0d98ebd20e895"
+    }
+  ],
+  "fixedModelSHA256": "3712655d9780c34257b2c136e3b0f59d9ea18215f032c49dee5024dbdc423834"
+}

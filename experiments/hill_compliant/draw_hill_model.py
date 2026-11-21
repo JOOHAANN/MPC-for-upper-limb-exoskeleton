@@ -50,10 +50,10 @@ LABELS = {
         "neural": "激活",
         "two": "背部、前部各一套相同结构；各自参数可标定",
         "parameters": "全九组标定的共享身体参数",
-        "foot": "示意姿态：theta=0.95 rad。肌肉走线/肢体轮廓为示意，不是解剖重建。",
+        "foot": "示意姿态：theta=0.95 rad。走线/肢体轮廓为示意，力箭头未按大小比例绘制。",
         "assist": "当前 demo 未加入独立外骨骼助力输入；软限位单独列出，不并入 Hill torque。",
         "net": "净 Hill 力矩",
-        "soft_note": "软限位由预测角度越界产生；区间内为零，未使用 reference 追踪。",
+        "soft_note": "软限位由预测角度越界产生，不追踪 reference。\n图示姿态位于区间内，因此此时软限位力矩为零。",
         "flow_title": "同一 Hill 系统如何产生 torque 与 theta",
         "experiment": "实验来源输入\n背部 + 采集的前部 activation",
         "map": "MAP 来源输入\n背部 + 辅助生成的前部 activation",
@@ -90,10 +90,10 @@ LABELS = {
         "neural": "Activation",
         "two": "The back and front use this structure, with separately calibrated muscle parameters.",
         "parameters": "Shared body geometry from the all-trial calibration",
-        "foot": "Illustrative pose: theta=0.95 rad. Muscle paths and limb outlines are schematic.",
+        "foot": "Illustrative pose: theta=0.95 rad. Paths/outlines are schematic; force arrows are not magnitude-scaled.",
         "assist": "No independent exoskeleton assistance input is applied; soft-limit torque is reported separately.",
         "net": "Net Hill torque",
-        "soft_note": "Soft limits use predicted angle only; zero within the interval; no reference tracking.",
+        "soft_note": "Soft limits use predicted angle only; no reference tracking.\nThe illustrated pose is within the interval: soft-limit torque is zero.",
         "flow_title": "Torque and angle emerge from the same coupled Hill system",
         "experiment": "Experimental inputs\nBack + recorded front activation",
         "map": "MAP inputs\nBack + auxiliary generated front activation",
@@ -224,7 +224,8 @@ def anatomy(parameters, language):
     line(ax, [top, elbow, load], color="#b5c0ce", lw=5, solid_capstyle="round")
     line(ax, [origin, load], color=TEAL, lw=1.6, ls="--")
     line(ax, [origin, [.92, 0]], color="#c3cbd7", lw=1.2, ls="--")
-    ax.text(.48, -.038, t["horizontal"], fontsize=11, color=GREY, ha="center")
+    horizontal_position = (.73, -.09) if phi > .7 else (.48, -.038)
+    ax.text(*horizontal_position, t["horizontal"], fontsize=11, color=GREY, ha="center")
 
     back_start = np.array([-.135, -.065])
     back_end = .85*top+.065*n
@@ -243,7 +244,7 @@ def anatomy(parameters, language):
     callout(ax, t["back"]+"\n"+r"$+R_bF_{T,b}$",
             (-.365, .46), back_start+.61*(back_end-back_start), BLUE, 15)
     callout(ax, t["front"]+"\n"+r"$-R_fF_{T,f}$",
-            (.47, -.145), front_start+.54*(front_end-front_start), ORANGE, 15)
+            (.55, -.22) if phi > .7 else (.47, -.145), front_start+.54*(front_end-front_start), ORANGE, 15)
     callout(ax, t["trunk"], (.52, .635), .91*top, DARK, 15)
     ax.add_patch(Circle(com, .017, fc="#efbf46", ec=DARK, lw=1.3, zorder=5))
     ax.text(com[0]+.035, com[1]+.035, "M "+t["com"], fontsize=14)
@@ -264,8 +265,7 @@ def anatomy(parameters, language):
     # Both purple and gray effects act at the joint. The soft spring is virtual.
     callout(ax, t["soft"]+r" $\tau_{soft}(\theta)$"+"\n"+t["damping"]+r" $-B\omega$",
             (.39, -.325), [.025, -.025], PURPLE, 13)
-    arrow(ax, [-.053, -.015], [-.042, .047], PURPLE, lw=1.6,
-          connectionstyle="arc3,rad=-.5", scale=10)
+    ax.add_patch(Circle(origin, .062, fc="none", ec=PURPLE, lw=1.2, ls=":"))
     fig.text(.05, .166, t["parameters"], fontsize=14, color=GREY)
     fig.text(.05, .128, f"M = {mass:.2f} kg     L1 = {l1:.4f} m", fontsize=17)
     fig.text(.05, .093, f"L2 = {l2:.4f} m     phi = {phi:.4f} rad", fontsize=17)
@@ -315,7 +315,7 @@ def anatomy(parameters, language):
     balance.text(.35, 3.65, r"$\tau_g=-MgL_1\cos\theta-mgL_2\cos(\theta-\phi)$", fontsize=18)
     balance.text(.35, 2.66, r"$I(m)\dot{\omega}=\tau_{Hill}+\tau_g-B\omega+\tau_{soft}(\theta)$", fontsize=18)
     balance.text(.35, 1.67, r"$\dot{\theta}=\omega,\qquad I(m)=mL_2^2+\frac{4}{3}ML_1^2$", fontsize=18)
-    balance.text(.35, .57, t["soft_note"], color=PURPLE, fontsize=12)
+    balance.text(.35, .30, t["soft_note"], color=PURPLE, fontsize=12, linespacing=1.5)
     fig.text(.035, .05, t["foot"], fontsize=13, color=GREY)
     fig.text(.035, .024, t["assist"], fontsize=13, color=PURPLE)
     save(fig, "musculoskeletal_model_"+language)

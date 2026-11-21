@@ -1,0 +1,334 @@
+{
+  "modelSHA256": "3712655d9780c34257b2c136e3b0f59d9ea18215f032c49dee5024dbdc423834",
+  "sourceResultSHA256": "ae54cfdbc1a4dfee6e77eb67327efa64137f15bcac31edd7c5358377f7daa152",
+  "activeFigureBundle": "optimized_model_and_mpc_recovery.pdf",
+  "historicalFigureBundles": [
+    "optimized_model_and_mpc_all_results.pdf",
+    "optimized_model_and_mpc_with_thresholds.pdf",
+    "optimized_model_and_mpc_tuned.pdf",
+    "optimized_model_and_mpc_headroom.pdf"
+  ],
+  "policy": "Saved optimized Hill / MPC trajectories only; one fixed parameter vector per activation source; original references and samples unchanged",
+  "files": [
+    {
+      "file": "controller_candidate_audit.csv",
+      "sha256": "70d44a8b476d69a3fa18f4666c4600ed9d14fa713e04687a83a3cca84f1d19a9"
+    },
+    {
+      "file": "evaluation.json",
+      "sha256": "a3bac21cd7a7354e50be9a48a712ef6130b945cc31c13fe21564225789f26116"
+    },
+    {
+      "file": "fixed_parameter_audit.csv",
+      "sha256": "3bfd5ae9b148daa63e61c1c46fc4ad08142876c506a4892558dec5358a9a0d9d"
+    },
+    {
+      "file": "model_mpc_comparison_metrics.csv",
+      "sha256": "a963594cbb5af1420464284cd4d8972f1edae75f3f9593fcc9b78dabdf1263cd"
+    },
+    {
+      "file": "movement_metrics.csv",
+      "sha256": "449d07ada8e7115e51515a77bafddbb9de80161a5bb437f17d8d758812249b9a"
+    },
+    {
+      "file": "mpc_headroom_before_after.pdf",
+      "sha256": "9354e80aa531ff96dbc853462d965471ce5e8435b9fbbbf34c637c70f73f7896"
+    },
+    {
+      "file": "mpc_headroom_comparison.csv",
+      "sha256": "d1482d7b22d3fe00eb8f8716fadcfac1065e29bb1b6d36e52693dbf1ab2f8236"
+    },
+    {
+      "file": "mpc_headroom_comparison_group1.pdf",
+      "sha256": "fe429eb0affe19b374026c401f550f490d2493aac5f4b3be839f235b833ee09f"
+    },
+    {
+      "file": "mpc_headroom_comparison_group1.png",
+      "sha256": "094fb100cb1090786a232ba33e7437fb9beb4ed0bdae56af889e7182c6c11e8f"
+    },
+    {
+      "file": "mpc_headroom_comparison_group2.pdf",
+      "sha256": "cd50d209104b1bf46a59b20e7e774d1885e5eaf06e8ee9460bd02bee6033abdc"
+    },
+    {
+      "file": "mpc_headroom_comparison_group2.png",
+      "sha256": "3fc047ab9071a2e2b1ea3419beff03252b5cea88a6379fe920407c62a0cc13d4"
+    },
+    {
+      "file": "mpc_headroom_comparison_group3.pdf",
+      "sha256": "d063f4dbe898e6e328fc2639e0bb1747705be99c0278d6112e1337c7c690f262"
+    },
+    {
+      "file": "mpc_headroom_comparison_group3.png",
+      "sha256": "06f8ba00429e88fa9bb1376576e41085750a38b9f1ee40d462ed2cc7961c8157"
+    },
+    {
+      "file": "mpc_headroom_residual_peak.pdf",
+      "sha256": "9970330353cd93c92624cbff0373de57438cedbd99c733ba982c9c88965e5522"
+    },
+    {
+      "file": "mpc_headroom_residual_peak.png",
+      "sha256": "73667a481031e309d2fc4b5aa9ab954d59729cd2f3e279404229838c12af5e96"
+    },
+    {
+      "file": "mpc_headroom_summary.json",
+      "sha256": "9153ba76aa78839d2a733f3a02ebc192567ecdf38754b9047b24e8182b47746e"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque.pdf",
+      "sha256": "485c6ea2cb1d52d6c7936f49a64c9eec595215d364adfd071c9107237291b4d4"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque.png",
+      "sha256": "e7dfd519cafcb74bfda5ee0cc411900ea82cb29b26551a960a48ed9a510f4eb5"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque_group1.pdf",
+      "sha256": "485c6ea2cb1d52d6c7936f49a64c9eec595215d364adfd071c9107237291b4d4"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque_group1.png",
+      "sha256": "e7dfd519cafcb74bfda5ee0cc411900ea82cb29b26551a960a48ed9a510f4eb5"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque_group2.pdf",
+      "sha256": "db8e5c7777a2f4fb3bccba7888408852947b7aa23a473591b433c5992fec6c62"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque_group2.png",
+      "sha256": "c7a79477dfd61621796a380b10b4df325adf00fbc5fbe074a1e764501e693426"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque_group3.pdf",
+      "sha256": "1024caa688faf5921e7cee3ba5d8039ec25f11597e78ffa623e387a7111a1774"
+    },
+    {
+      "file": "mpc_muscle_and_boundary_torque_group3.png",
+      "sha256": "ee65ad196ba21ea3fbfea398fac67b236d5ab91364321b4ebd932c154fc70b65"
+    },
+    {
+      "file": "mpc_recovery_before_after.pdf",
+      "sha256": "e2b17181de1a1a04dfa345920d92c5109587195738061b4c2119e181bc39fb3c"
+    },
+    {
+      "file": "mpc_recovery_endings_group1.pdf",
+      "sha256": "79ebe8861b07f0327f9c1e6d6e43331da85f7a9c1e9810046542c84b88e126d6"
+    },
+    {
+      "file": "mpc_recovery_endings_group1.png",
+      "sha256": "f0e2e524a20c836d56315555ed2d3af211b0cbceb61276f08effbb5a4b3d525a"
+    },
+    {
+      "file": "mpc_recovery_endings_group2.pdf",
+      "sha256": "8c84c00fd5f427651ea19faa685549221cc51b57bb99fba4d2a45ed3617434c8"
+    },
+    {
+      "file": "mpc_recovery_endings_group2.png",
+      "sha256": "757c277f2cb91cb8f6fa55a697db847d73910415b6566aab70eec1e14ead3a63"
+    },
+    {
+      "file": "mpc_recovery_endings_group3.pdf",
+      "sha256": "3a495f974c0e55e81b4c5e7561d94aae5f903f20f3af743aa9ab20e5bcd1e502"
+    },
+    {
+      "file": "mpc_recovery_endings_group3.png",
+      "sha256": "600ef8c03dfa43860d88a909cf829910c913ddfe3207e4464f8b44742840600e"
+    },
+    {
+      "file": "mpc_recovery_metrics.csv",
+      "sha256": "2af2ceab3c306147e4e5dcbbebe31c1b75c6034d1461f1c0b6c8579eda89618f"
+    },
+    {
+      "file": "mpc_recovery_summary.json",
+      "sha256": "34ad0d4b6335ee55f3f36991501a5088bef72a10f193316c6a0481bf078c7faa"
+    },
+    {
+      "file": "mpc_recovery_summary.pdf",
+      "sha256": "bbfb9688e8ced398f66b2fffb122a86d8b49ff39088670a52034228c329675e7"
+    },
+    {
+      "file": "mpc_recovery_summary.png",
+      "sha256": "2105d3d2730b526426483002bf8082d987484eb6bf9596a08d8a9fb9b301bdb6"
+    },
+    {
+      "file": "mpc_torque_theta_group1.pdf",
+      "sha256": "308a0e97a8d19273abcb0f5a1b88a9b4b4e213806cc23915f66ddaf857a6ba03"
+    },
+    {
+      "file": "mpc_torque_theta_group1.png",
+      "sha256": "9ccff8d3d7d5f037fb1c2a7d57582207aee4e98d496c94c860d532f2f6a7469f"
+    },
+    {
+      "file": "mpc_torque_theta_group2.pdf",
+      "sha256": "858f67503e364feb6e591c14f6e8ca53cdce5ffd3b8cd053d68da3b063562868"
+    },
+    {
+      "file": "mpc_torque_theta_group2.png",
+      "sha256": "e54f804a568e71cab4edee549e6ff438e2f810ddaf4608cfb50d089c86eb6492"
+    },
+    {
+      "file": "mpc_torque_theta_group3.pdf",
+      "sha256": "9117fee58e947d930986a0e1a53922c5aa64b528313d70aa5a2b2a30ada7b955"
+    },
+    {
+      "file": "mpc_torque_theta_group3.png",
+      "sha256": "c28c0a0f8a520fad80ea5d90b6c91f87f97ece6595f03b272f62eaa2b1c072d9"
+    },
+    {
+      "file": "mpc_tuning_before_after.pdf",
+      "sha256": "304d72787e2c33eeb75c40bc02b44558e4413e2ede3927111ba66ea88b057c94"
+    },
+    {
+      "file": "mpc_tuning_comparison.csv",
+      "sha256": "6388601655dacf039be4b12b9be7c1d412ad24b83bb8073f4315f369143bb349"
+    },
+    {
+      "file": "mpc_tuning_comparison_group1.pdf",
+      "sha256": "a882af5ad969c0244ab0783541b18401a00cb61dd22c001434ca2c542a64ad0c"
+    },
+    {
+      "file": "mpc_tuning_comparison_group1.png",
+      "sha256": "76d5d75205556952e233cfd7da53e770976a6a9b7ab3d05e67acabfdc31cac0a"
+    },
+    {
+      "file": "mpc_tuning_comparison_group2.pdf",
+      "sha256": "569074711738f280e002c228586cfe8b440165b3683b511b807b6d8d68a28495"
+    },
+    {
+      "file": "mpc_tuning_comparison_group2.png",
+      "sha256": "33605095b500adb068e680b5684bb05e2345f2be48944a1fb457aab90a5ba6c0"
+    },
+    {
+      "file": "mpc_tuning_comparison_group3.pdf",
+      "sha256": "7a04ceb99f0eeb6d27ac7ab08686d5a1673383f4541327009046736ad0e80399"
+    },
+    {
+      "file": "mpc_tuning_comparison_group3.png",
+      "sha256": "9496627e67c94c3f0e216a4834cdef8c226c5bdc02cc20880297f857d975c73c"
+    },
+    {
+      "file": "mpc_tuning_summary.json",
+      "sha256": "52155b4f03522b8753c27ff3c2d0f5727cda2b6b38924b548cca61c68ccba63f"
+    },
+    {
+      "file": "native_cache_parity.json",
+      "sha256": "fd3f6e4999188eb3852232abf2fbb9b73dd5c10a40a3f86a0458597630cd2e99"
+    },
+    {
+      "file": "numerical_checks.csv",
+      "sha256": "273d66fa15117315e01cde99150966c34e16b476eec31b6d982cffa439c2333c"
+    },
+    {
+      "file": "optimized_model_and_mpc_all_results.pdf",
+      "sha256": "0fb960c5a2d9af490023c23783b890891c680865aa57adbf2314b6631a2e5d34"
+    },
+    {
+      "file": "optimized_model_and_mpc_headroom.pdf",
+      "sha256": "9e3e1b4930be01983d90e3ba5727154a029e940497f7a9bf85f5b61a1d2fd423"
+    },
+    {
+      "file": "optimized_model_and_mpc_recovery.pdf",
+      "sha256": "fb751ed1651983ff26542852e8db804c4655e71ebfd866602e9b6816e1c9ed14"
+    },
+    {
+      "file": "optimized_model_and_mpc_tuned.pdf",
+      "sha256": "73142342f12549baf724196ac110403a872665d71aaa207f7329c5ac53d61b68"
+    },
+    {
+      "file": "optimized_model_and_mpc_tuned_02.png",
+      "sha256": "1a01fec7315d881ab1eb0ea43b908b7280f9776f8c44079fa6506c51ecb4befd"
+    },
+    {
+      "file": "optimized_model_and_mpc_with_thresholds.pdf",
+      "sha256": "5b05cd1a298fdf37eef62b25e11b6655dd211689606114fb3cf13e2c2c48b2d7"
+    },
+    {
+      "file": "post_movement_ablation_group1.pdf",
+      "sha256": "caaf976aaacf2c617f9df35c9dcc83a2f438f6358216502cf089837dade867f2"
+    },
+    {
+      "file": "post_movement_ablation_group1.png",
+      "sha256": "827c00aa47cf2fbe7898804f750c654ef841c746668118c3dd84c0372f7be144"
+    },
+    {
+      "file": "post_movement_ablation_group2.pdf",
+      "sha256": "975002287f61a097f9c72eb96355b395589aa92cab620c59f737ef6bfd99da25"
+    },
+    {
+      "file": "post_movement_ablation_group2.png",
+      "sha256": "3c4d91299458611d12bce03c57b386a14c58423155cf656305e5f636da0c0b56"
+    },
+    {
+      "file": "post_movement_ablation_group3.pdf",
+      "sha256": "2d0380008496a56d171db1544c7ee638d2ddb3a3b56fff25d57e437d66464d8d"
+    },
+    {
+      "file": "post_movement_ablation_group3.png",
+      "sha256": "49ea6e2014f1be32919b054e70aadaaf123c118d110adee885e9d5611f10adcb"
+    },
+    {
+      "file": "post_movement_component_detail.pdf",
+      "sha256": "4acda0f7317e23faea4834107e7065bcd96ed85b5de471ea47d57c07da0efab0"
+    },
+    {
+      "file": "post_movement_component_detail.png",
+      "sha256": "063df8833d0eb3e58181cbd22bcb5bba6e8d20b90d910288ec2148574bf16ee7"
+    },
+    {
+      "file": "post_movement_diagnosis.json",
+      "sha256": "e83132668a7249bc482f3c5c8a88f63b2c3b2c3efbb63556019d2ef2c65cdc69"
+    },
+    {
+      "file": "post_movement_feedback_traces.csv",
+      "sha256": "05fd002851a1c737b5030395abe4bc8c3c5e6d6e827ccf65785035a9b83a392c"
+    },
+    {
+      "file": "post_movement_peak_audit.csv",
+      "sha256": "20414d07a240f7b4d6440a478416f5179180be1221c94cc7714a4698abbe0c97"
+    },
+    {
+      "file": "post_movement_spike_diagnosis.pdf",
+      "sha256": "367dc8920917abeb4b928a09effb2d012b8cc3e8e74528f63f47841a5dc58887"
+    },
+    {
+      "file": "theta_15kg_all_speeds.pdf",
+      "sha256": "53703ca9cf4850ca5d8865cae0071ba354619fa97b2d5244cd0a849182c28e16"
+    },
+    {
+      "file": "theta_15kg_all_speeds.png",
+      "sha256": "303feec87fd5ae182c678a16ef7841787757977d63ce8afec6adc635bf50acb0"
+    },
+    {
+      "file": "theta_all9_experimental.pdf",
+      "sha256": "56b46b2ea54a60ecfe6c7afbbbbdee12dada4542c25cea30fb1e5dd7ff3d53f6"
+    },
+    {
+      "file": "theta_all9_experimental.png",
+      "sha256": "1b533781c2741fff32640d4b0b8caf3b14b8c5e198237175d0c5b939bb65f819"
+    },
+    {
+      "file": "theta_all9_map.pdf",
+      "sha256": "04adbd58936d86e55d3c7673b4e8572d5567b8b37bec1ea496bd919308362f96"
+    },
+    {
+      "file": "theta_all9_map.png",
+      "sha256": "faac01a21f3483c7c82f043000cef5c5c3de2646c9a5061202917760005189b3"
+    },
+    {
+      "file": "torque_all9_experimental.pdf",
+      "sha256": "4a298a6e0a517951a9ffe3ab8d8e5e8b4436743ef1f23b2dde35987d969f087c"
+    },
+    {
+      "file": "torque_all9_experimental.png",
+      "sha256": "4bd16b3c02ce61a70fbf2e59e2905115577a25bd2a94681b34e782f15b629380"
+    },
+    {
+      "file": "torque_all9_map.pdf",
+      "sha256": "620e89e7b8dcfed155700d0abdea22548b2e98455d3395870992154a0cbe5c8f"
+    },
+    {
+      "file": "torque_all9_map.png",
+      "sha256": "6ab7f4e19a5f4a7cc2a4777123d81a325eb1cf53ad93ccdc8abf0b73f742bead"
+    }
+  ]
+}

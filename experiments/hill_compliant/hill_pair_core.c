@@ -117,7 +117,7 @@ int hill_pair_integrate(const double*p,const double*a,const double*m,int n,doubl
     }
     return failed;
 }
-#ifdef MATLAB_MEX_FILE
+#if defined(MATLAB_MEX_FILE) && !defined(HILL_CORE_NO_MEX_GATEWAY)
 void mexFunction(int nlhs,mxArray *plhs[],int nrhs,const mxArray *prhs[]){
     if(nrhs!=6||nlhs!=2)mexErrMsgIdAndTxt("hill:args","Six inputs and two outputs required.");
     for(int j=0;j<6;j++)if(!mxIsDouble(prhs[j])||mxIsComplex(prhs[j])||mxIsSparse(prhs[j]))mexErrMsgIdAndTxt("hill:type","Real full doubles required.");

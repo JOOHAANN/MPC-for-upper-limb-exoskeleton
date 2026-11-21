@@ -1,0 +1,20 @@
+{
+  "modelFile": "data\\processed\\hill_compliant\\neural_models.mat",
+  "model": "one-DOF equivalent trunk, two compliant Hill units, input-side neural control",
+  "intentIsOutputAngle": false,
+  "externalPostureTorqueNm": 0,
+  "loadAwareIntent": true,
+  "musclePaths": "Illustrative; constant moment arms used by the solver",
+  "bodyParameters": {
+    "M_kg": 44.995031753548886,
+    "L1_m": 0.2808853522108302,
+    "L2_m": 0.48249252679289223,
+    "phi_rad": 0.8552219436250336
+  },
+  "softLimits": {
+    "stiffness_NmPerRad": 300.0,
+    "cap_Nm": 80.0,
+    "lower_rad": 0.04999999999999999,
+    "upper_rad": 1.9
+  }
+}

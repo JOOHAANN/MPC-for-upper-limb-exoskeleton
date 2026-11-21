@@ -12,10 +12,14 @@ slprj/
 *.mexmaci64
 /experiments/hill_forward/*.dll
 /experiments/hill_compliant/*.dll
+/experiments/hill_compliant/*.so
 
 # Large local recordings and original papers/figures (kept on disk)
 /data/raw/*
 !/data/raw/README.md
+# Reproducible Exp activation exports; retain locally, keep large STOs out of Git.
+/data/processed/exp_activation_A01/
+/data/processed/ceinms_reference_audit/
 /docs/reference/
 
 # OS/editor metadata
@@ -26,3 +30,68 @@ Thumbs.db
 .vscode/
 .idea/
 __pycache__/
+
+# Local research inputs and participant-level audits. Previously published
+# files remain tracked.
+/data/processed/exp_speed_grid/
+/data/processed/exp_subjects_A01/
+/data/processed/multi_subject/
+/data/processed/subject_quality_v2/
+/data/processed/hill_compliant/paired_sequences.mat
+/docs/activation_level_audit/
+/docs/ceinms_reference_audit/
+/docs/exp_activation_A01/
+/docs/exp_data_audit_*/
+/docs/exp_one_cycle_review/
+/docs/exp_speed_grid/*
+!/docs/exp_speed_grid/summary.zh-CN.md
+/docs/exp_subjects_A01/
+/docs/exp_three_loads/
+/docs/exp_truncation_evidence/
+/docs/map_coverage_audit/
+/docs/mpc_threshold_tracking/
+/docs/multi_subject_evaluation/
+/docs/nine_case_75pct/
+/docs/subject_quality_v2/
+
+# Manuscript, local demo packages and generated figures.
+/Demo/paper/
+/Demo/Figures/
+/Demo/manifest.json
+/Demo/verification.json
+/Demo/BSE/data/
+/Demo/BSE/Direct_Activation_No_Limits/data/
+/Demo/NMPC/data/
+/Demo/**/output/
+/Demo/BSE/diagnostics/
+/output/
+/tmp/
+
+# Historical working copies, experiment results and native build outputs.
+/experiments/BSE_two_figure_*_before/
+/experiments/ICORR_figure_insertion_*/
+/experiments/NMPC_cleanup_*/
+/experiments/PID_moderate_*/
+/experiments/PID_tracking_repair_*/
+/experiments/figure_typography_*/
+/experiments/**/before_*/
+/experiments/**/previous_*/
+/experiments/**/retired/
+/experiments/**/output/
+/experiments/**/outputs/
+/experiments/**/*.mat
+/experiments/**/*.npz
+/experiments/**/*.fig
+/experiments/**/*.pdf
+/experiments/**/*.png
+/experiments/**/*.csv
+/experiments/**/*.json
+/experiments/**/*.dll
+/experiments/**/*.so
+*.mexmaca64
+
+# Internal work notes and sample-by-sample exports.
+/experiments/**/STATUS.md
+/experiments/**/pre_*/
+/docs/hill_mpc_evaluation/post_movement_feedback_traces.csv
+/docs/hill_sequence_evaluation/abdominal_torque_comparison_group*.csv

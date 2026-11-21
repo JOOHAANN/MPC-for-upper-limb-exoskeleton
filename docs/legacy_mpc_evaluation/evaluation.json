@@ -1,0 +1,143 @@
+{
+  "summary": [
+    {
+      "source": "control_experimental",
+      "durationSeconds": 45.4,
+      "wallSeconds": 72.5894915,
+      "executionComplete": true,
+      "allFinite": true,
+      "minimumAngleRad": -1.0935282702293614,
+      "maximumAngleRad": 3.3836669101444032,
+      "thetaRMSEReferenceDeg": 27.408009204312673,
+      "peakBackTorqueNm": 183.12387995489811,
+      "peakAssistanceNm": 85.55921568942045,
+      "assistanceCapNm": 80.0,
+      "assistanceOverCapSamples": 646,
+      "softBoundaryAbsPeakNm": 131.1105726023993,
+      "externalBalanceAbsPeakNm": 357.5428135653834,
+      "minimumFrontTorqueNm": -12.11301558136911,
+      "maximumFrontTorqueNm": 1.6408366469935305,
+      "solverCalls": 5274,
+      "solverNonpositiveExits": 647,
+      "solveMedianMs": 5.704750000000001,
+      "solveP95Ms": 39.37187499999999,
+      "solveMaximumMs": 486.4618
+    },
+    {
+      "source": "control_map",
+      "durationSeconds": 45.4,
+      "wallSeconds": 46.105885,
+      "executionComplete": true,
+      "allFinite": true,
+      "minimumAngleRad": -0.8663254955235141,
+      "maximumAngleRad": 2.706660213808569,
+      "thetaRMSEReferenceDeg": 30.154224596157093,
+      "peakBackTorqueNm": 287.2116923870417,
+      "peakAssistanceNm": 119.11072887484858,
+      "assistanceCapNm": 80.0,
+      "assistanceOverCapSamples": 1330,
+      "softBoundaryAbsPeakNm": 318.8629344975268,
+      "externalBalanceAbsPeakNm": 1177.520248686024,
+      "minimumFrontTorqueNm": -5.932448541669125,
+      "maximumFrontTorqueNm": 1.640836514995393,
+      "solverCalls": 5658,
+      "solverNonpositiveExits": 1331,
+      "solveMedianMs": 5.68515,
+      "solveP95Ms": 12.147344999999998,
+      "solveMaximumMs": 269.1372
+    }
+  ],
+  "provenance": [
+    {
+      "source": "control_experimental",
+      "originalSimulator": "offline_simulator_NMPC_quasimodo_incremental_MPC",
+      "originalSimulatorSHA256": "4f60e8a9e66b16bb043593489f03ac1e29847a2e2b5f816409e42f3ca38f2c73",
+      "executedCopySHA256": "0e17695a21e88658a058d16e6095aa6012af357cb4b2dabe340a5c1af4db435a",
+      "predictorSHA256": "997b4c908dcdd603aba3bb3fb2b1cfea9ec2018e51b1832e13804925b7018453",
+      "inputSHA256": "3a632f24b8614bf19facb523c72a889d623d1bbbfeb4e992e375ec7d9c86ad41",
+      "replaySHA256": "e57860b53a982f25ff24487ede4fcafb61f386d47572a81ec8c2bbb728093b21",
+      "parameters": [
+        0.0380196562634957,
+        0.645017822853626,
+        0.204039417115808,
+        10557.7108614069,
+        22.1256427169235,
+        0.329388435617747,
+        0.789068624062216,
+        0.61010585638975,
+        1.19953597779333,
+        86.7539190477979,
+        0.7,
+        -1.99676909726852,
+        1.03495249411787,
+        1.50672917083905
+      ],
+      "executionChanges": [
+        "Serial finite differences; same fmincon SQP settings",
+        "Hold the final recorded sample at the prediction-window tail",
+        "Use zero initial assistance instead of indexing U(0)",
+        "Record solver diagnostics; omit legacy plotting block"
+      ],
+      "modelPolicy": "Archived BSE/controller parameters; not the selected neural/Hill model"
+    },
+    {
+      "source": "control_map",
+      "originalSimulator": "offline_simulator_NMPC_quasimodo_incremental_MPC_with_MAP",
+      "originalSimulatorSHA256": "eaa1d0be90d1425c677261f15e70fedd90822bbb5cb42d427663eb42281f9e35",
+      "executedCopySHA256": "bbcc6beec7d7f27121e64c0e13aaa68a6a197540e39b55b05d76cbdd3f397714",
+      "predictorSHA256": "921c869534550f139693bc92075040bf3760810cd340732b94d4c258e40a3973",
+      "inputSHA256": "06f455a0ae2892322259f05b17fec57406d6b5bc21aaaa5c575d0160df70ba52",
+      "replaySHA256": "24501e594e84871ffc5c31311b7a05c0b31a31a923e7ac7301c57dc498dbffb0",
+      "parameters": [
+        0.0380196562634957,
+        0.645017822853626,
+        0.204039417115808,
+        10557.7108614069,
+        22.1256427169235,
+        0.329388435617747,
+        0.789068624062216,
+        0.61010585638975,
+        1.19953597779333,
+        86.7539190477979,
+        0.7,
+        -1.99676909726852,
+        1.03495249411787,
+        1.50672917083905
+      ],
+      "executionChanges": [
+        "Serial finite differences; same fmincon SQP settings",
+        "Hold the final recorded sample at the prediction-window tail",
+        "Use zero initial assistance instead of indexing U(0)",
+        "Record solver diagnostics; omit legacy plotting block"
+      ],
+      "modelPolicy": "Archived BSE/controller parameters; not the selected neural/Hill model"
+    }
+  ],
+  "scope": "Each archived simulator's original 45.4-second, three-load recording",
+  "controller": {
+    "sampleSeconds": 0.001,
+    "predictionSamples": 100,
+    "controlBlocks": 5,
+    "blockSamples": 10,
+    "actuatorCapNm": 80,
+    "incrementBoundsNm": [
+      0,
+      0.5
+    ],
+    "Q": 12,
+    "R": 3,
+    "W": 3,
+    "experimentalThresholdsNm": [
+      100,
+      140,
+      180
+    ],
+    "MAPThresholdsNm": [
+      90,
+      120,
+      150
+    ]
+  },
+  "baselinePolicy": "Archived Theta_Tac0/Torque_Tac0; not an independently regenerated baseline",
+  "torquePolicy": "Legacy plotted output is R*MTF (back tendon torque); abdomen is a signed polynomial"
+}

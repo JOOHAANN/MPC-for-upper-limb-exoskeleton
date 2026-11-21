@@ -1,0 +1,39 @@
+{
+  "checks": {
+    "sameParametersAcrossNineConditionsPerSource": true,
+    "sameModelStructureAcrossSources": true,
+    "sharedBodyLoadAndSoftLimitParameters": true,
+    "allMovementAnglesWithinBroadRange": true,
+    "entireSequenceAnglesWithinAllowedRange": true,
+    "allValleysWithinReferenceDepthTolerance": true,
+    "allExcursionsAtLeast075Reference": true,
+    "allMiddleReboundsAtLeast065Reference": true,
+    "allConditionsHaveTwoMajorValleys": true,
+    "minimumShapeCorrelationAbove06": true,
+    "allMeanAbdominalToBackTorqueRatiosBelow03": true,
+    "allAbdominalPeakTorquesBelow100Nm": true,
+    "fullSequenceAbdominalPeakBelow50Nm": true,
+    "softBoundaryPeakBelow50Nm": true,
+    "settledWaitingErrorBelow001Rad": true,
+    "halfStepAngleDifferenceBelow002Rad": true,
+    "halfStepTorqueDifferenceBelow3Nm": true
+  },
+  "screenPassed": true,
+  "criteriaStatus": "Demo engineering screening, not universal physiological ratios or individual validation",
+  "modelSHA256": "cb52917e73c231dd36f23a298b112e891b6c74f7e7f837fb00b31949be286ad6",
+  "angleProfile": "depth",
+  "anglePolicy": {
+    "lower": -0.3,
+    "upper": 2.3,
+    "sequenceLower": -0.3,
+    "sequenceUpper": 2.3,
+    "boundaryWeight": 0.15,
+    "valleyTolerance": 0.15,
+    "excursionRatio": 0.75
+  },
+  "previousModel": "data/processed/hill_compliant/neural_models_shape_baseline.mat",
+  "referenceStatus": "Exact original project Scale",
+  "activationStatus": "Not verified %MVC",
+  "modelIncludesNeuralControl": true,
+  "motionIntentIsNotOutputAngle": true
+}

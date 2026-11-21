@@ -1,0 +1,7 @@
+group,source,minimumAngleRad,maximumAngleRad,peakSoftTorqueNm,activeSamples,lawResidualNm
+1,Experimental activation,0.488223058526265,1.5128664931919,0,0,0
+1,MAP activation,0.470259200193947,1.59417528965883,0,0,0
+2,Experimental activation,0.50462560330477,1.54411746439078,0,0,0
+2,MAP activation,0.478977846510591,1.57453189681093,0,0,0
+3,Experimental activation,0.515210597069788,1.55680510358593,0,0,0
+3,MAP activation,0.471356911510366,1.6054076434748,0,0,0

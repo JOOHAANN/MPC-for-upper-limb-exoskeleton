@@ -1,0 +1,38 @@
+[
+  {
+    "group": 1,
+    "source": 1,
+    "qDifferenceRad": 0.0,
+    "torqueDifferenceNm": 0.0
+  },
+  {
+    "group": 1,
+    "source": 2,
+    "qDifferenceRad": 0.0,
+    "torqueDifferenceNm": 0.0
+  },
+  {
+    "group": 2,
+    "source": 1,
+    "qDifferenceRad": 0.0,
+    "torqueDifferenceNm": 0.0
+  },
+  {
+    "group": 2,
+    "source": 2,
+    "qDifferenceRad": 0.0,
+    "torqueDifferenceNm": 0.0
+  },
+  {
+    "group": 3,
+    "source": 1,
+    "qDifferenceRad": 0.0,
+    "torqueDifferenceNm": 0.0
+  },
+  {
+    "group": 3,
+    "source": 2,
+    "qDifferenceRad": 0.0,
+    "torqueDifferenceNm": 0.0
+  }
+]

@@ -99,9 +99,10 @@ def features(trial):
     back = trial["a"][:, 1]
     fast, slow = memory(back, .1), memory(back, .35)
     mass, nominal = trial["m"]/15, trial["loadKg"]/15
+    nominal = np.broadcast_to(nominal, (len(back),))
     return np.c_[
         back, back*back, fast, slow, back-slow, mass,
-        np.full(len(back), nominal), back*nominal, back*mass,
+        nominal, back*nominal, back*mass,
         (back-fast)*nominal,
     ]
 

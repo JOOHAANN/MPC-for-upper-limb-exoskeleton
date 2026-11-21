@@ -1,0 +1,113 @@
+{
+  "sourceResultSHA256": "2c2f407dea6ca308fed5d127f9328c5becbf5bd1d4b6a022e7374d5dc137a38c",
+  "modelSHA256": "3712655d9780c34257b2c136e3b0f59d9ea18215f032c49dee5024dbdc423834",
+  "standingController": {
+    "kp": 80.0,
+    "kd": 30.0,
+    "ki": 0.0,
+    "requestCapNm": 120.0,
+    "coContractionNm": 2.0,
+    "blendTimeSeconds": 0.1
+  },
+  "counterfactualPolicy": "Same state at original movement end, same future inputs/load/recorded actuator command for up to 1 s; only named feedback gains changed. Diagnostic only, not a replacement controller.",
+  "replayChecks": [
+    {
+      "group": 1,
+      "source": "Experimental activation",
+      "maximumAngleDifferenceRad": 2.120170705666169e-11,
+      "maximumBackTorqueDifferenceNm": 1.847326380755021e-08,
+      "maximumFeedbackReconstructionDifferenceNm": 5.298462042446772e-07
+    },
+    {
+      "group": 1,
+      "source": "MAP activation",
+      "maximumAngleDifferenceRad": 2.5499158340380745e-11,
+      "maximumBackTorqueDifferenceNm": 2.8972328536269742e-08,
+      "maximumFeedbackReconstructionDifferenceNm": 5.204719455420559e-07
+    },
+    {
+      "group": 2,
+      "source": "Experimental activation",
+      "maximumAngleDifferenceRad": 2.2557289369729006e-11,
+      "maximumBackTorqueDifferenceNm": 1.2154803386010826e-08,
+      "maximumFeedbackReconstructionDifferenceNm": 6.227274909065272e-07
+    },
+    {
+      "group": 2,
+      "source": "MAP activation",
+      "maximumAngleDifferenceRad": 1.833622143010416e-11,
+      "maximumBackTorqueDifferenceNm": 2.6326638646878564e-08,
+      "maximumFeedbackReconstructionDifferenceNm": 4.743900756665198e-07
+    },
+    {
+      "group": 3,
+      "source": "Experimental activation",
+      "maximumAngleDifferenceRad": 4.0626835229318203e-11,
+      "maximumBackTorqueDifferenceNm": 2.5092141697768966e-08,
+      "maximumFeedbackReconstructionDifferenceNm": 5.48316563708795e-07
+    },
+    {
+      "group": 3,
+      "source": "MAP activation",
+      "maximumAngleDifferenceRad": 1.9633406012076193e-11,
+      "maximumBackTorqueDifferenceNm": 1.2949726624356117e-08,
+      "maximumFeedbackReconstructionDifferenceNm": 3.85998795593423e-07
+    }
+  ],
+  "movementFeedback": [
+    {
+      "source": "Experimental activation",
+      "kp": 206.67301840473166,
+      "kd": 34.021946692610534,
+      "feedbackRecruitmentFraction": 0.7000458630077445
+    },
+    {
+      "source": "MAP activation",
+      "kp": 187.31887750118796,
+      "kd": 16.20443253159027,
+      "feedbackRecruitmentFraction": 0.700000020365249
+    }
+  ],
+  "largestPostPeak": {
+    "group": 1,
+    "source": "MAP activation",
+    "loadKg": 5,
+    "speedCode": 35,
+    "movementEndSeconds": 11.89,
+    "peakTimeSeconds": 12.02,
+    "peakDelaySeconds": 0.129999999999999,
+    "postBackPeakNm": 34.545177210815915,
+    "postNetTorqueAtBackPeakNm": 31.85734635038748,
+    "unassistedPostBackPeakNm": 32.365997124341035,
+    "angleAtPeakRad": 1.377394037516694,
+    "velocityAtPeakRadPerSec": -0.054494271747307366,
+    "standingPAtPeakNm": 9.8041174569234,
+    "standingDAtPeakNm": 1.6872145733071164,
+    "standingSaturatedPDAtPeakNm": 11.456334505257747,
+    "movementFeedbackAtPeakNm": 23.867548618824152,
+    "mixedFeedbackAtPeakNm": 14.995931556040375,
+    "standingWeightAtPeak": 0.7148065436310876,
+    "gravityDemandAtPeakNm": 23.82941961901712,
+    "assistanceAtPeakNm": 0.0,
+    "maximumPostAssistanceNm": 0.0,
+    "boundaryAtPeakNm": 0.0,
+    "backActiveAtPeakNm": 34.51719261204869,
+    "backPassiveAtPeakNm": 0.0,
+    "backFiberDampingAtPeakNm": 0.027984598680863986,
+    "motionIntentAtPeakRad": 1.4999999999999987,
+    "sourceBackActivationAtPeak": 0.0,
+    "feedbackRecruitmentFractionAtPeak": 0.9144419688973621,
+    "effectiveLoadAtPeakKg": 3.79128021395599e-09,
+    "noStandingPPostBackPeakNm": 30.118324790382932,
+    "noStandingPAtOriginalPeakNm": 30.115166843933764,
+    "noStandingDPostBackPeakNm": 34.97218269523332,
+    "noStandingDAtOriginalPeakNm": 33.7570337774088,
+    "noStandingPDPostBackPeakNm": 36.891485985491784,
+    "noStandingPDAtOriginalPeakNm": 27.752399827302614,
+    "noMovementFeedbackPostBackPeakNm": 38.63235183021635,
+    "noMovementFeedbackAtOriginalPeakNm": 35.37763799931037,
+    "noBothFeedbacksPostBackPeakNm": 55.34462543931383,
+    "noBothFeedbacksAtOriginalPeakNm": 24.926827466621777
+  },
+  "transitionCount": 18
+}

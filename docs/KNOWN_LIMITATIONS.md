@@ -3,6 +3,15 @@
 This reorganization preserves experiment-specific scientific choices. It does
 not certify every archived optimization or controller branch.
 
+The multi-subject pipeline audits five additional recording folders and fits
+MAP/Hill/MPC parameters per folder. Only 240617 contains the nine named target
+conditions, with some truncated records; other folders have fewer speeds or
+missing loads. The 240723 angle polarity and 240719 10 kg angle alignment are
+flagged, not silently corrected. Holdouts were inspected during development
+and are not a sealed final test. Predicted assisted muscle torque still relies
+on a modeled human response rather than an independently fitted assistance
+experiment. [Full data audit and method](MULTI_SUBJECT.zh-CN.md).
+
 The current `demo_hill_compliant` preserves the exact archived angle reference
 and evaluates a coupled compliant Hill pair. Its auxiliary flexor recruitment,
 effective load geometry and muscle priors are estimated and not independently
@@ -41,5 +50,14 @@ not establish end-to-end or cross-subject generalization. See
   fidelity of activation response to assistance torque, and EMG noise. An
   offline simulation is not evidence of real-time hardware performance.
 
-Full GA calibration, all NMPC simulations, Simulink execution, and every raw
-recording preprocessing route were not rerun during this cleanup.
+The archived experimental and MAP MPC simulators now have complete 45.4-second
+checked replays. They show angle excursions, failed optimizer exits, and
+assistance exceeding the configured cap. They use the archived BSE model,
+not the selected neural/Hill model. See [the MPC test report](LEGACY_MPC_TEST.zh-CN.md).
+The default MPC entry now uses the selected neural/Hill model and preserves
+the W-shaped angle pattern in all nine cases per source. It assumes human
+excitation adaptation to known assistance torque; this response is not fitted
+to independent assisted EMG measurements. Remaining phase/torque mismatch is
+documented in [the current MPC report](HILL_MPC.zh-CN.md).
+Full GA calibration, every NMPC branch, Simulink execution, and every raw
+recording preprocessing route have not all been rerun.

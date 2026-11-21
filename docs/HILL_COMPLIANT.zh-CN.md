@@ -1,12 +1,20 @@
 # 同一 Hill 系统的 theta、torque 与 activation 对比
 
+**版本范围：下文是历史双 Hill 基线及其速度留出实验，参数文件为 `calibrated_models.mat`。** 推荐入口现为 `demo_hill_sequence` / `demo_hill_neural`，使用同一机械结构加输入端神经调节，重新减少共同收缩。请查看 [最新九工况固定参数结果](HILL_NEURAL.zh-CN.md)；旧版留出结果不能用于宣称新版已经完成独立泛化验证。
+
+**生理核查更新：当前腹部募集存在缺少独立测量支持的大共同收缩。** 数值稳定与净力矩/角度拟合不能证明内部肌肉分配合理。请同时查看 [腹部激活及力矩核查](HILL_RECRUITMENT_AUDIT.zh-CN.md)，不要将当前前部有效 activation 直接解释为 %MVC。
+
 当前入口是 `demo_hill_compliant.m`。两条作用相反的弹性肌腱 Hill 肌肉共同产生力矩、驱动角度；实验采集与 MAP 生成 activation 使用同一模型方程和求解器。
+
+需要连续 5→10→15 kg、直立等待及腹部肌肉力矩图时，运行 `demo_hill_sequence`，见 [连续工况说明](HILL_SEQUENCE.zh-CN.md)。该入口读取原完整记录；原手写等待段的 1.5 rad/20 N·m 填充值保持不变，不将等待力矩填充值用于动作拟合。
 
 **32 个模型参数全部开放优化**，包括 M、L1、L2、φ、肌肉力量/长度、肌腱应变、激活响应、阻尼、软限位。同一受试者的身体/负载几何与软限位参数在两种输入之间共享，肌肉及激活参数可以不同。
 
 **reference 完全沿用原项目的 Scale**：抽取 `Combination_raw.mat` 第三列，不重新 rescale、平滑、去接缝、平移或修形。原代码调用 `normalize_max_min` 的范围为 0.5–1.4 rad，实际拼接/滤波结果原样保留。0–1.8 rad 只用于检查预测，不改变 reference，也不截断输出。九段逐点审核的最大差异均为 0。
 
 ## 运行与图表
+
+当前单关节身体结构、Hill 内部结构和两种 activation 的计算关系见 [模型结构图与解释](HILL_MODEL_STRUCTURE.zh-CN.md)。图中软限位是独立边界项；本次未加入独立外骨骼助力输入。
 
 ```matlab
 cd('D:\matlab\Journal Paper of Upper-Limb Exoskeleton\GitHub_Ready');

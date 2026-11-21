@@ -65,13 +65,17 @@ function test_hill_compliant()
                 I = t.m * par(13)^2 + 4 * par(19) * par(20)^2 / 3;
                 assert(max(abs(I .* p.acceleration - p.torque - p.gravityTorque - p.dampingTorque - p.boundaryTorque)) < 1e-8);
                 q0 = [t.q(1), t.v0];
+                % Cached outputs can differ by rounding after recompiling
+                % with another C compiler. Causality compares two fresh runs.
+                referenceBaseline = hill_pair_rollout(dynamics, a, t.m, q0, .01, 10);
+                assert(max(abs(p.q - referenceBaseline.q)) < 1e-6 && max(abs(p.torque - referenceBaseline.torque)) < .001);
                 t.q(:) = NaN;
                 t.torque(:) = NaN;
                 t.qArchived(:) = NaN;
                 a2 = hill_pair_inputs(t, source, model.generator, par);
                 assert(isequal(a, a2));
                 again = hill_pair_rollout(dynamics, a2, t.m, q0, .01, 10);
-                assert(isequaln(p, again));
+                assert(isequaln(referenceBaseline, again));
                 fine = hill_pair_rollout(dynamics, a2, t.m, q0, .01, 20);
                 rec = struct('mode', mode, 'source', source, 'trial', k, 'angleDifference', max(abs(p.q - fine.q)), ...
                              'torqueDifference', max(abs(p.torque - fine.torque)));

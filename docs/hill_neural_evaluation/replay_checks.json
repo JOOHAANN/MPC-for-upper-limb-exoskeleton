@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "portableModelSHA256": "3712655d9780c34257b2c136e3b0f59d9ea18215f032c49dee5024dbdc423834",
+  "matlabReplaySHA256": "d97560fbed2f507f8003bf2a107d3c304d7427b8565cd99ed5e95cd855228885",
+  "fixedParameterConditionsPerSource": 9,
+  "sources": 2,
+  "continuousRecordsPerSource": 3,
+  "originalReferencesExactlyPreserved": true,
+  "appendedWaitSeconds": 30,
+  "anglePolicy": {
+    "lower": -0.3,
+    "upper": 2.3,
+    "sequenceLower": -0.3,
+    "sequenceUpper": 2.3,
+    "boundaryWeight": 0.15,
+    "valleyTolerance": 0.15,
+    "excursionRatio": 0.75
+  },
+  "parameterCountsPerSource": [
+    42,
+    42
+  ],
+  "sharedStandingController": [
+    80.0,
+    30.0,
+    0.0,
+    120.0,
+    2.0,
+    0.1
+  ],
+  "extensionPolicy": "Hold the final waiting input, set load zero, continue all original states",
+  "scope": "Numerical reproducibility and prolonged standing; not independent physiological validation"
+}

@@ -1,0 +1,153 @@
+{
+  "resultMatSHA256": "9653ce99d84cb57445253f8e5e2ddf5899564cb9e039857d28846f044f810a04",
+  "calibratedModelsSHA256": "9eff50f533c93a4b96d1dbaff641667b1eba7ebcbe192d004afeebe58be60233",
+  "controller": [
+    200.0,
+    60.0,
+    0.0,
+    120.0,
+    2.0,
+    0.15
+  ],
+  "dtSeconds": 0.01,
+  "substepsPerSample": 10,
+  "angleReferencePolicy": "Exact original full Scale records, including their 1.5-rad waiting seams",
+  "waitingTorquePolicy": "Original filled 20-Nm value displayed; excluded from movement fit metrics",
+  "forcePolicy": "Tendon tension in N; CE, PE and fiber damping include pennation projection",
+  "abdominalTorquePolicy": "Primary abdominal plots use Nm from the Hill solver; positive flexion magnitude, negative signed joint contribution",
+  "evaluationPolicy": "Continuous calibrated replay, not an additional independent holdout",
+  "files": [
+    {
+      "file": "abdominal_torque_comparison_group1.csv",
+      "sha256": "303f8ebe8e4de2623d220bb0f4133fbc3dfaae2dd6d5e623f24506ecb5abb958"
+    },
+    {
+      "file": "torque_theta_group1.png",
+      "sha256": "ebd519a977e6150321b1500818a589231645baef00385e4fbbfcebf01ad26f99"
+    },
+    {
+      "file": "torque_theta_group1.pdf",
+      "sha256": "efdea02888806995c23e939c5a48a66ef63a40ca6405abc9b60112ed6ddcfa72"
+    },
+    {
+      "file": "abdominal_torque_group1.png",
+      "sha256": "57b49d6cc4a81cfdd5a3c8702265ec2c0a5906dfd4f38c159c9b9ea53453cf65"
+    },
+    {
+      "file": "abdominal_torque_group1.pdf",
+      "sha256": "8c3aa89aa83d4d5e0e32648770074d497b9228048eefb554d1cd9c61d7097c3a"
+    },
+    {
+      "file": "abdominal_torque_comparison_group1.png",
+      "sha256": "dd143562c52bb939e5e0251b85e659b70d8b86e80cc838247f536ac1703a9195"
+    },
+    {
+      "file": "abdominal_torque_comparison_group1.pdf",
+      "sha256": "4e842a4ef798d8c0280d60d0e51a3e0b7930d0b19dc36da0809dbaa12989d8f1"
+    },
+    {
+      "file": "standing_balance_group1.png",
+      "sha256": "10a1c9f244c89a25a53800fd36e81394b0a4f75d6864baa848e56c2a08530bba"
+    },
+    {
+      "file": "standing_balance_group1.pdf",
+      "sha256": "1342179fec96eda5f21e7aa25e4b054072072338579117580e841c83ed66111b"
+    },
+    {
+      "file": "sequence_group1.png",
+      "sha256": "ff83ecb7ee5788a9fa1b1f076c22d943552990f7056bad5730822654479e367c"
+    },
+    {
+      "file": "sequence_group1.pdf",
+      "sha256": "911b483dfda9a90a6ab7f0c08577b49ea3b85954f7dd574cfdcf2307097a415d"
+    },
+    {
+      "file": "abdominal_torque_comparison_group2.csv",
+      "sha256": "a0abc74c563a4f1936b3dadfceab1e29c2d95d7f8bfba603edd5541961c40bd0"
+    },
+    {
+      "file": "torque_theta_group2.png",
+      "sha256": "7cbb741e18b008c98f1d1d68913a828b0621786fadaee7b99ef53507f3e46ddf"
+    },
+    {
+      "file": "torque_theta_group2.pdf",
+      "sha256": "e85d9d77815682a040dd6be7064edcf3d925966814a67f0e846be98fbcea2b8e"
+    },
+    {
+      "file": "abdominal_torque_group2.png",
+      "sha256": "36b917816bb6232f6f3df64c03ed182e27cbbf50d557042da36d3605d0516f64"
+    },
+    {
+      "file": "abdominal_torque_group2.pdf",
+      "sha256": "bd64e4174bdab902134b66ba6724c441c1fc51d5b6ee9452a5e10c704efe258c"
+    },
+    {
+      "file": "abdominal_torque_comparison_group2.png",
+      "sha256": "b3de17f5c69e8ee533c3ee1a37b0d0c79c7276c9078691bf6c6f40d855f2ece1"
+    },
+    {
+      "file": "abdominal_torque_comparison_group2.pdf",
+      "sha256": "f9bbec00a81721622f5d6ff8a77ccd96c47676e2d2cf6759a130e80ee77f4834"
+    },
+    {
+      "file": "standing_balance_group2.png",
+      "sha256": "922fa6a09fe0acaf6e08e8645fecf037c8de196042aa23744da3604b646d4bc1"
+    },
+    {
+      "file": "standing_balance_group2.pdf",
+      "sha256": "104873234d0c03c7702e416dbc798b6fbb506f8a4740a406a34c94882af2d8df"
+    },
+    {
+      "file": "sequence_group2.png",
+      "sha256": "ea3b6fafca6c7541e1b93b6acb1cedeedfa5cc5c5de1b9e73bce6e23b8b318ac"
+    },
+    {
+      "file": "sequence_group2.pdf",
+      "sha256": "282414cce6d0bd065ce44b0e7980347363ccde99ecae74c69a835d5bfba8a0eb"
+    },
+    {
+      "file": "abdominal_torque_comparison_group3.csv",
+      "sha256": "4eafea25e32f8433e6761d71f08150a5f10dda5b2718c7cfec178c706c5b4dc2"
+    },
+    {
+      "file": "torque_theta_group3.png",
+      "sha256": "5bc5b6ecfd21e2700c43e422534ee6bf274a6f71dfb1ccb98704ea1428e86ef7"
+    },
+    {
+      "file": "torque_theta_group3.pdf",
+      "sha256": "8f3a8a32471002b0a22f643418d71400be03dfc41bfc1bf39659e9a7fa092d49"
+    },
+    {
+      "file": "abdominal_torque_group3.png",
+      "sha256": "8ef33a71ae9bd169940f209ab64fed1ef294ef60c1d8686ad8a86ea32b6afc6d"
+    },
+    {
+      "file": "abdominal_torque_group3.pdf",
+      "sha256": "d3a5e78c2cff4988bfe17a68629e3f68d147aa44d8e8da8152a847f3e4f796c7"
+    },
+    {
+      "file": "abdominal_torque_comparison_group3.png",
+      "sha256": "c6b35e09139945fc691ba1f7e216c1bfb73fc2be128db4103042c62c97fcf1f9"
+    },
+    {
+      "file": "abdominal_torque_comparison_group3.pdf",
+      "sha256": "0aa8d64d7705a6a1843ad0573d93815960f55938e5ed00c5eac9e8e21c8ca24b"
+    },
+    {
+      "file": "standing_balance_group3.png",
+      "sha256": "622b40d35d123b2529d44d3f4a0950462b0fd92aa9413fdfdaf048163db7b365"
+    },
+    {
+      "file": "standing_balance_group3.pdf",
+      "sha256": "0ae847199dbbc5193395948ba8ffd48b9d94a6e8eb11966ebe2a808d621967f3"
+    },
+    {
+      "file": "sequence_group3.png",
+      "sha256": "0c5199a3bca6a3f6e3d425af4e65db5b7e8fcab9040ef0b629c57c9b499b1945"
+    },
+    {
+      "file": "sequence_group3.pdf",
+      "sha256": "a80a605a068fa7e675a0ee3ac7161d62b26d7fb4e3f43ee317fd89917a08bbd5"
+    }
+  ]
+}
