@@ -95,3 +95,9 @@ __pycache__/
 /experiments/**/pre_*/
 /docs/hill_mpc_evaluation/post_movement_feedback_traces.csv
 /docs/hill_sequence_evaluation/abdominal_torque_comparison_group*.csv
+
+# Linker side files from the demo MEX build on Windows.
+/Demo/**/*_mex.exp
+/Demo/**/*_mex.lib
+/Demo/**/*_mex.pdb
+/Demo/**/*_mex.mexw64.manifest
